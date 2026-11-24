@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Final 20 ns A/B/C/D validation, reusing the project simulation and validation path."""
-import csv, datetime, json, os, random, statistics, sys
+import argparse, csv, datetime, json, os, random, statistics, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'code/core'))
@@ -49,7 +49,22 @@ def stats(root):
             for k in 'ABCD': w.writerow(dict(block=i+1,config=k,**{c:data[k][i][c] for c in cols[2:]}))
     return out
 def main():
-    for p in (ELF,JEMALLOC,TCMALLOC,BOLT): assert p.is_file() and (p.stat().st_mode&0o111 or p.suffix=='.so.2'), p
+    parser = argparse.ArgumentParser(
+        description='Run the formal 20 ns A/B/C/D dynamic-library experiment.'
+    )
+    parser.add_argument(
+        '--check-only', action='store_true',
+        help='validate executable and allocator paths without running a simulation'
+    )
+    args = parser.parse_args()
+    required = (ELF, JEMALLOC, TCMALLOC, BOLT)
+    missing = [str(p) for p in required
+               if not p.is_file() or not (p.stat().st_mode & 0o111 or p.suffix == '.so.2')]
+    if missing:
+        parser.error('missing or non-executable required artifacts: ' + ', '.join(missing))
+    if args.check_only:
+        print('required executable and allocator paths are available')
+        return
     variants=configs(); seq=orders(); ROOT_OUT.mkdir(parents=True,exist_ok=True)
     (ROOT_OUT/'design.json').write_text(json.dumps({'seed':SEED,'stop_ns':20,'threads':8,'cpus':'0-15','monitor_cpu':16,'numa':'default','orders':seq,'variants':{k:{'elf':str(v[0]),'elf_sha256':e.sha(v[0]),'preload':str(v[1]) if v[1] else ''} for k,v in variants.items()}},indent=2)+'\n')
     root=run_group('formal-20ns',variants,seq); result=stats(root)

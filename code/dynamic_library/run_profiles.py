@@ -2,6 +2,12 @@
 """Independent 2 ns profiles; profile runs are never included in formal timing."""
 import os, sys
 from pathlib import Path
+
+if any(arg in ('-h', '--help') for arg in sys.argv[1:]):
+    print('usage: run_profiles.py')
+    print('Run independent 2 ns A/B/C profile diagnostics; output is excluded from formal timing.')
+    raise SystemExit(0)
+
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'code/core'))
 import experiment as e
