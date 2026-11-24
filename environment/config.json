@@ -1,0 +1,20 @@
+{
+  "workloads": [
+    "c7552"
+  ],
+  "windows_ns": {
+    "c7552": 20
+  },
+  "final_workload": "c7552",
+  "memory_modes": [
+    "default",
+    0,
+    2
+  ],
+  "cpus": "0-15",
+  "controller_cpu": 16,
+  "threads": 8,
+  "event": "cpu-clock:u",
+  "sampling_hz": 99,
+  "random_seed": 20261115
+}

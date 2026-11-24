@@ -1,0 +1,537 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 48 and seed -2927965453123611118 with 1 worker on 17 cores with 30688MB heap and 64MB offheap memory [pid: 95553] (Linux 3.10.0-1160.el7.x86_64 amd64, Red Hat, Inc. 11.0.23 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /tmp/ngspice-formal.RGJX34/ExperimentPipeline.tla
+Parsing file /tmp/Naturals.tla
+Parsing file /tmp/FiniteSets.tla
+Parsing file /tmp/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module ExperimentPipeline
+Starting... (2026-11-19 23:01:02)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-19 23:01:02.
+Error: Invariant Canary is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ counted = {}
+/\ runs = ( <<"NUMA_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"NUMA_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "local" ] @@
+  <<"FINAL_VALIDATION", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] )
+/\ passed = {}
+/\ active = {}
+/\ phase = "INIT"
+/\ gate = FALSE
+/\ best = "default"
+/\ failed = {}
+
+State 2: <NextPhase line 24, col 3 to line 24, col 89 of module ExperimentPipeline>
+/\ counted = {}
+/\ runs = ( <<"NUMA_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"NUMA_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "local" ] @@
+  <<"FINAL_VALIDATION", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] )
+/\ passed = {}
+/\ active = {}
+/\ phase = "ENV_AUDIT"
+/\ gate = FALSE
+/\ best = "default"
+/\ failed = {}
+
+State 3: <NextPhase line 24, col 3 to line 24, col 89 of module ExperimentPipeline>
+/\ counted = {}
+/\ runs = ( <<"NUMA_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"NUMA_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "local" ] @@
+  <<"FINAL_VALIDATION", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] )
+/\ passed = {}
+/\ active = {}
+/\ phase = "CONFIG_VALIDATION"
+/\ gate = FALSE
+/\ best = "default"
+/\ failed = {}
+
+State 4: <NextPhase line 24, col 3 to line 24, col 89 of module ExperimentPipeline>
+/\ counted = {}
+/\ runs = ( <<"NUMA_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"NUMA_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"NUMA_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "local" ] @@
+  <<"FACTORIAL_EXPERIMENT", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FACTORIAL_EXPERIMENT", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "local" ] @@
+  <<"FINAL_VALIDATION", "A">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "original",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "B">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "C">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] @@
+  <<"FINAL_VALIDATION", "D">> :>
+      [ workload |-> "C7552",
+        solver |-> "KLU",
+        threads |-> 8,
+        ns |-> 20,
+        netlist |-> "fixed-netlist",
+        pdk |-> "fixed-pdk",
+        cpu |-> "0-15",
+        binary |-> "verified-klu8-bolt",
+        memory |-> "default" ] )
+/\ passed = {}
+/\ active = {}
+/\ phase = "NUMA_EXPERIMENT"
+/\ gate = FALSE
+/\ best = "default"
+/\ failed = {}
+
+4 states generated, 4 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 4.
+The average outdegree of the complete state graph is 1 (minimum is 1, the maximum 1 and the 95th percentile is 1).
+Finished in 00s at (2026-11-19 23:01:02)

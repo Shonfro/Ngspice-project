@@ -1,0 +1,7 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+Error: OMP_NUM_THREADS: no such variable.
+[ perf record: Woken up 126 times to write data ]
+[ perf record: Captured and wrote 3.256 MB perf.data (85189 samples) ]

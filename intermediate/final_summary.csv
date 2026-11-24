@@ -1,0 +1,2 @@
+stage,contrast,pairs,baseline_mean_s,trial_mean_s,baseline_median_s,trial_median_s,baseline_sd_s,trial_sd_s,mean_saving_s,saving_sd_s,ci95_low_s,ci95_high_s,win_count,reduction_pct,speedup,geometric_mean_paired_speedup
+final,A->B,7,332.73857142857145,329.8614285714286,332.91,329.69,0.6447073902536163,1.0700689786399964,2.877142857142847,1.4542319196711782,1.532202649795905,4.222083064489789,7,0.86468570349094,1.0087222773199136,1.0087251992600372

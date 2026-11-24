@@ -1,0 +1,5 @@
+config,expected_allocator,maps_or_loader_evidence,symbol_lookup_evidence,evidence_path
+A,system libc/glibc,available,not_collected,/home/lyy/workplace/deliveries/51295903059_刘昱垚/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/maps.txt
+B,jemalloc,available,available,/home/lyy/workplace/deliveries/51295903059_刘昱垚/result/dynamic_library/jemalloc-load.log
+C,tcmalloc,available,available,/home/lyy/workplace/deliveries/51295903059_刘昱垚/result/dynamic_library/tcmalloc-load.log
+D,tcmalloc,available,not_collected,/home/lyy/workplace/deliveries/51295903059_刘昱垚/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/maps.txt

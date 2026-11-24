@@ -1,0 +1,9 @@
+config=A
+elf=/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+preload=
+30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be  /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+cpu_affinity=0-15
+monitor_cpu=16
+numa_policy=default
+threads=8
+solver=klu

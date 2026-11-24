@@ -1,0 +1,74 @@
+{
+  "seed": 20261123,
+  "stop_ns": 20,
+  "threads": 8,
+  "cpus": "0-15",
+  "monitor_cpu": 16,
+  "numa": "default",
+  "orders": [
+    [
+      "B",
+      "C",
+      "A",
+      "D"
+    ],
+    [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    [
+      "B",
+      "D",
+      "C",
+      "A"
+    ],
+    [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    [
+      "B",
+      "D",
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  ],
+  "variants": {
+    "A": {
+      "elf": "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice",
+      "elf_sha256": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+      "preload": ""
+    },
+    "B": {
+      "elf": "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice",
+      "elf_sha256": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+      "preload": "/home/lyy/workplace/dynamic-libs/prefix/jemalloc-5.3.0/lib/libjemalloc.so.2"
+    },
+    "C": {
+      "elf": "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice",
+      "elf_sha256": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+      "preload": "/home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3"
+    },
+    "D": {
+      "elf": "/home/lyy/workplace/eda/bolt/optimized/v1/ngspice/ngspice-klu8-bolt",
+      "elf_sha256": "22f13df8f37a0fdb70bdd6395a6508d6e5b561fcea2540d0ee7fc8b555c94a5a",
+      "preload": "/home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3"
+    }
+  }
+}

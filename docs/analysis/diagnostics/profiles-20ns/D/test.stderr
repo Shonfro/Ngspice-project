@@ -1,0 +1,4 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.042 MB test.data (957 samples) ]

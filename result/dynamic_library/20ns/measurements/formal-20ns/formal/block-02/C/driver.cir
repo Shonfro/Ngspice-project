@@ -1,0 +1,23 @@
+* EDA benchmark ngspice headless driver
+* Headless selected-output instrumentation: v(g7529_1), v(g7509_0), v(g7552_0); NOT original plot-all IO. Original adaptive tran TSTEP/TSTART/TMAX/UIC preserved.
+.control
+set ngbehavior=hsa
+set num_threads=8
+* Headless output instrumentation: full-precision ASCII saved waveforms
+set filetype=ascii
+set rawfileprec=17
+source circuit.sp
+option klu
+unset ngdebug
+option noinit
+save v(g7529_1) v(g7509_0) v(g7552_0)
+tran 1ps 20ns 0 10p uic
+echo BENCH_NUM_THREADS=$num_threads
+echo BENCH_OMP_NUM_THREADS=$OMP_NUM_THREADS
+write waveform.raw v(g7529_1) v(g7509_0) v(g7552_0)
+rusage all
+inventory
+echo BENCH_SIMULATION_COMPLETE
+quit
+.endc
+.end

@@ -1,0 +1,6 @@
+candidate\tversion\tbuild_status\tload_status\trepeatable_gain_status\tnote
+jemalloc\t5.3.0\tbuilt\tloaded-symbol-probe\tnot_evaluated\tprivate prefix; SHA256 in experiment evidence
+mimalloc\t1.9.2/2.1.7\tfailed\tnot_run\tnot_evaluated\tGCC 4.8.5 lacks stdatomic.h
+tcmalloc\tgperftools-2.7\tbuilt\tloaded-symbol-probe\tnot_evaluated\tprivate prefix; SHA256 in experiment evidence
+hygon-glibc\tn/a\tnot_executable\tnot_run\tnot_evaluated\tno reliable compatible official bundle found
+libm\tsystem glibc-2.17\tcompatibility_only\tdefault_loaded\tnot_evaluated\tno optimized libm package was identified

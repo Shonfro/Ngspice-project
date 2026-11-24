@@ -1,0 +1,9 @@
+{
+  "status": "SUCCEEDED",
+  "checks": 554,
+  "failed": [],
+  "formal_runs": 99,
+  "strict_runs": 31,
+  "scope_note": "Historical full-project audit; screening records are not shipped.",
+  "c7552_delivered_formal_rows": 87
+}

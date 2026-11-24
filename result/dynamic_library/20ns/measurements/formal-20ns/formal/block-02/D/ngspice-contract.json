@@ -1,0 +1,11 @@
+{
+  "signals": [
+    "v(g7529_1)",
+    "v(g7509_0)",
+    "v(g7552_0)"
+  ],
+  "solver": "klu",
+  "threads": 8,
+  "stop_ns": 20,
+  "output_contract": "Headless selected-output instrumentation: v(g7529_1), v(g7509_0), v(g7552_0); NOT original plot-all IO. Original adaptive tran TSTEP/TSTART/TMAX/UIC preserved."
+}

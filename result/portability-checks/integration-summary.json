@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "case": "relocated-and-perf-fallback",
+      "returncode": 0,
+      "status": {
+        "status": "SUCCEEDED",
+        "mode": "check",
+        "scope": "environment/formal only"
+      },
+      "log": "/home/lyy/workplace/deliveries/test/portability-integration/relocated-and-perf-fallback.log"
+    },
+    {
+      "case": "bad-node",
+      "returncode": 1,
+      "status": {
+        "status": "FAILED",
+        "mode": "check",
+        "error": "Node 999 is unavailable, has fewer than 16 allowed CPUs, or less than 2 GiB free/reclaimable memory. See preflight.json. Select another --node or adjust the scheduler allocation."
+      },
+      "log": "/home/lyy/workplace/deliveries/test/portability-integration/bad-node.log"
+    },
+    {
+      "case": "explicit-bad-perf",
+      "returncode": 1,
+      "status": {
+        "status": "FAILED",
+        "mode": "check",
+        "error": "No usable perf could record/read cpu-clock:u samples. Bundled perf was tried, then host perf unless NGSPICE_PERF was explicit.\nInstall tools matching uname -r (prepare-host.sh --system), or set NGSPICE_PERF=/absolute/path/to/perf. Permission failures require the administrator to permit user-space perf sampling (perf_event_paranoid/container capability); the launcher does not change kernel security settings. See probes in preflight.json."
+      },
+      "log": "/home/lyy/workplace/deliveries/test/portability-integration/explicit-bad-perf.log"
+    }
+  ],
+  "scope": "Environment, formal tools, path relocation and error handling only; no performance experiments",
+  "fallback_simulation": "Clone bundled perf intentionally fails; host-bin/perf links the already working hg7490 perf to validate resolver behavior, not Ubuntu compatibility"
+}

@@ -1,0 +1,2 @@
+Main host: Python 3.11; GNU time; taskset; numactl/numastat; sysstat; benchmark suite 2026.10.28-1 and its model sources.
+Independent host: x86-64 Linux; Python 3.10+; sha256sum; ldd and the compatible native runtime libraries; Z3 CLI; Java and tla2tools.jar (TLC_JAR).

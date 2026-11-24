@@ -1,0 +1,8 @@
+config=D
+elf=/home/lyy/workplace/eda/bolt/optimized/v1/ngspice/ngspice-klu8-bolt
+preload=/home/lyy/workplace/deliveries/51295903059_刘昱垚/source/dependencies/allocators/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+cpu_affinity=0-15
+monitor_cpu=16
+numa_policy=default
+threads=8
+solver=klu

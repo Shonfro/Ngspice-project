@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-o",
+    "time.tsv",
+    "-f",
+    "%e\t%U\t%S\t%M\t%c\t%w\t%F\t%R",
+    "taskset",
+    "-c",
+    "0-15",
+    "/opt/vendor/openlane/2.3.10/python/bin/python3",
+    "/home/lyy/workplace/ngspice_workload_select/code/selected.py",
+    "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice",
+    "-n",
+    "-b",
+    "driver.cir"
+  ],
+  "elf": "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice",
+  "sha256": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+  "profile": {
+    "name": "klu8",
+    "threads": 8,
+    "solver": "klu"
+  },
+  "stop_ns": 20,
+  "memory_policy": 0,
+  "monitor_cpu": 16,
+  "ld_preload": "/home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3"
+}

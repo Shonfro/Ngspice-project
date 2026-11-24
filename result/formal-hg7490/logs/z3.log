@@ -1,0 +1,4 @@
+Z3 4.12.2
+evidence.smt2 sat 1032
+negative-control.smt2 unsat 1033
+unsat core: [archived_0, injected_mismatch]

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="254" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="26" font-size="17">Final KLU8 selected phases</text>
+<line x1="180.0" x2="180.0" y1="40" y2="200" stroke="#333"/>
+<text x="12" y="57" font-size="12">A assembly</text>
+<rect x="180.00" y="45" width="457.19" height="15" fill="#246b91"/>
+<text x="658" y="57" font-size="12">+144.223</text>
+<text x="12" y="81" font-size="12">A factor</text>
+<rect x="180.00" y="69" width="158.36" height="15" fill="#246b91"/>
+<text x="658" y="81" font-size="12">+49.955</text>
+<text x="12" y="105" font-size="12">A solve</text>
+<rect x="180.00" y="93" width="51.97" height="15" fill="#246b91"/>
+<text x="658" y="105" font-size="12">+16.394</text>
+<text x="12" y="129" font-size="12">B assembly</text>
+<rect x="180.00" y="117" width="460.00" height="15" fill="#246b91"/>
+<text x="658" y="129" font-size="12">+145.108</text>
+<text x="12" y="153" font-size="12">B factor</text>
+<rect x="180.00" y="141" width="153.82" height="15" fill="#246b91"/>
+<text x="658" y="153" font-size="12">+48.524</text>
+<text x="12" y="177" font-size="12">B solve</text>
+<rect x="180.00" y="165" width="52.28" height="15" fill="#246b91"/>
+<text x="658" y="177" font-size="12">+16.490</text>
+<text x="20" y="224" font-size="12">Phase median (seconds; counters may overlap)</text>
+<text x="20" y="242" font-size="11">Source: klu8-20261115-051336-94122; A original, B BOLT</text>
+</svg>

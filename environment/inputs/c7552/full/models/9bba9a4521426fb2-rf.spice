@@ -1,0 +1,12 @@
+* SKY130 Spice File.
+* RF MOS Parameters
+.include "0cdef6b84f4779b9-sky130_fd_pr__rf_nfet_01v8_b__tt.corner.spice"
+.include "d48d5b1be4fe96b9-sky130_fd_pr__rf_nfet_01v8_lvt_b__tt.corner.spice"
+.include "120c2c096ff87029-sky130_fd_pr__rf_nfet_g5v0d10v5_b__tt.corner.spice"
+.include "06457396b67c95ff-sky130_fd_pr__rf_pfet_01v8_b__tt.corner.spice"
+.include "ca52edda038b4cf5-sky130_fd_pr__rf_nfet_01v8__mismatch.corner.spice"
+.include "f199d4f4e906ba39-sky130_fd_pr__rf_nfet_01v8_lvt__mismatch.corner.spice"
+.include "29cf2ce6e1910f3c-sky130_fd_pr__rf_nfet_g5v0d10v5__mismatch.corner.spice"
+.include "329b992466fa736b-sky130_fd_pr__rf_pfet_01v8__mismatch.corner.spice"
+.include "cf21900fade43a2e-sky130_fd_pr__rf_pfet_01v8_mvt__tt_discrete.corner.spice"
+.include "4be07e841b5c0e65-sky130_fd_pr__rf_pfet_01v8_mvt__mismatch.corner.spice"

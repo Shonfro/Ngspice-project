@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="446" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="26" font-size="17">Independent KLU8 final validation</text>
+<line x1="180.0" x2="180.0" y1="40" y2="392" stroke="#333"/>
+<text x="12" y="57" font-size="12">Block 1 Original</text>
+<rect x="180.00" y="45" width="457.45" height="15" fill="#246b91"/>
+<text x="658" y="57" font-size="12">+331.580</text>
+<text x="12" y="81" font-size="12">Block 1 BOLT</text>
+<rect x="180.00" y="69" width="457.13" height="15" fill="#246b91"/>
+<text x="658" y="81" font-size="12">+331.350</text>
+<text x="12" y="105" font-size="12">Block 2 Original</text>
+<rect x="180.00" y="93" width="458.23" height="15" fill="#246b91"/>
+<text x="658" y="105" font-size="12">+332.150</text>
+<text x="12" y="129" font-size="12">Block 2 BOLT</text>
+<rect x="180.00" y="117" width="455.17" height="15" fill="#246b91"/>
+<text x="658" y="129" font-size="12">+329.930</text>
+<text x="12" y="153" font-size="12">Block 3 Original</text>
+<rect x="180.00" y="141" width="460.00" height="15" fill="#246b91"/>
+<text x="658" y="153" font-size="12">+333.430</text>
+<text x="12" y="177" font-size="12">Block 3 BOLT</text>
+<rect x="180.00" y="165" width="456.88" height="15" fill="#246b91"/>
+<text x="658" y="177" font-size="12">+331.170</text>
+<text x="12" y="201" font-size="12">Block 4 Original</text>
+<rect x="180.00" y="189" width="459.52" height="15" fill="#246b91"/>
+<text x="658" y="201" font-size="12">+333.080</text>
+<text x="12" y="225" font-size="12">Block 4 BOLT</text>
+<rect x="180.00" y="213" width="454.84" height="15" fill="#246b91"/>
+<text x="658" y="225" font-size="12">+329.690</text>
+<text x="12" y="249" font-size="12">Block 5 Original</text>
+<rect x="180.00" y="237" width="459.60" height="15" fill="#246b91"/>
+<text x="658" y="249" font-size="12">+333.140</text>
+<text x="12" y="273" font-size="12">Block 5 BOLT</text>
+<rect x="180.00" y="261" width="453.21" height="15" fill="#246b91"/>
+<text x="658" y="273" font-size="12">+328.510</text>
+<text x="12" y="297" font-size="12">Block 6 Original</text>
+<rect x="180.00" y="285" width="459.28" height="15" fill="#246b91"/>
+<text x="658" y="297" font-size="12">+332.910</text>
+<text x="12" y="321" font-size="12">Block 6 BOLT</text>
+<rect x="180.00" y="309" width="454.56" height="15" fill="#246b91"/>
+<text x="658" y="321" font-size="12">+329.490</text>
+<text x="12" y="345" font-size="12">Block 7 Original</text>
+<rect x="180.00" y="333" width="459.24" height="15" fill="#246b91"/>
+<text x="658" y="345" font-size="12">+332.880</text>
+<text x="12" y="369" font-size="12">Block 7 BOLT</text>
+<rect x="180.00" y="357" width="453.74" height="15" fill="#246b91"/>
+<text x="658" y="369" font-size="12">+328.890</text>
+<text x="20" y="416" font-size="12">Wall time (s)</text>
+<text x="20" y="434" font-size="11">result/final-validation/klu8-20261115-051336-94122/blocks.json</text>
+</svg>

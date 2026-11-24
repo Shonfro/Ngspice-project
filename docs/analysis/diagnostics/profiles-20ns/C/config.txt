@@ -1,0 +1,10 @@
+config=C
+elf=/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+preload=/home/lyy/workplace/deliveries/51295903059_刘昱垚/source/dependencies/allocators/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be  /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+158b02b4f7798b4f6e8769e8b12f4a091aac4afca47fb603e1c45064875e9efc  /home/lyy/workplace/deliveries/51295903059_刘昱垚/source/dependencies/allocators/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+cpu_affinity=0-15
+monitor_cpu=16
+numa_policy=default
+threads=8
+solver=klu

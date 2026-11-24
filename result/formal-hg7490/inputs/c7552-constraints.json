@@ -1,0 +1,4478 @@
+[
+  {
+    "label": "profile.original.sha256",
+    "actual": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+    "expected": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+  },
+  {
+    "label": "profile.optimized.sha256",
+    "actual": "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d",
+    "expected": "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+  },
+  {
+    "label": "profile.fdata.sha256",
+    "actual": "18b033bf113e5cc7f07f9beaba209ab08ac693a0b15eba42a26a9cf85a9ea96f",
+    "expected": "18b033bf113e5cc7f07f9beaba209ab08ac693a0b15eba42a26a9cf85a9ea96f"
+  },
+  {
+    "label": "training configuration",
+    "actual": [
+      "klu",
+      8,
+      20
+    ],
+    "expected": [
+      "klu",
+      8,
+      20
+    ]
+  },
+  {
+    "label": "training inputs",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "training Build ID in perf list",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "training BOLT version",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "factorial gate",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "deployment memory policy",
+    "actual": "default",
+    "expected": "default"
+  },
+  {
+    "label": "batch completed",
+    "actual": "completed",
+    "expected": "completed"
+  },
+  {
+    "label": "historical-factorial.block_count",
+    "actual": 7,
+    "expected": 7
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-01/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-02/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-03/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-04/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-05/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-06/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/D.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/D.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/D.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/C.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/C.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/20261114-055440-34321/formal/c7552/block-07/C.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "klu8-replication.block_count",
+    "actual": 7,
+    "expected": 7
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-01/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-02/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-03/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-04/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-05/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-06/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/klu8/block-07/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "sparse8-bolt.block_count",
+    "actual": 7,
+    "expected": 7
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-01/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-02/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-03/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-04/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-05/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-06/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/solver-20261115-000316-20800/sparse8/block-07/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "numa.block_count",
+    "actual": 7,
+    "expected": 7
+  },
+  {
+    "label": "numa.1.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-01/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.2.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-02/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.3.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-03/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.4.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-04/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.5.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-05/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.6.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-06/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "numa.7.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      0,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/block-07/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "remote.block_count",
+    "actual": 3,
+    "expected": 3
+  },
+  {
+    "label": "remote.1.cells",
+    "actual": [
+      "R"
+    ],
+    "expected": [
+      "R"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-01/R.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "remote.2.cells",
+    "actual": [
+      "R"
+    ],
+    "expected": [
+      "R"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-02/R.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "remote.3.cells",
+    "actual": [
+      "R"
+    ],
+    "expected": [
+      "R"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      2,
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/numa/klu8-20261115-051336-94122/remote/block-03/R.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.block_count",
+    "actual": 7,
+    "expected": 7
+  },
+  {
+    "label": "final.1.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-01/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.2.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-02/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.3.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-03/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.4.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-04/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.5.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-05/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.6.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-06/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "final.7.cells",
+    "actual": [
+      "A",
+      "B"
+    ],
+    "expected": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/B.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.unique",
+    "actual": false,
+    "expected": false
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.validated",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.finite_and_complete",
+    "actual": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expected": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.fixed_variants",
+    "actual": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ],
+    "expected": [
+      "klu",
+      8,
+      20,
+      "default",
+      "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.expected_workload",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.thread_masks",
+    "actual": [
+      "0-15"
+    ],
+    "expected": [
+      "0-15"
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.observed_workers",
+    "actual": 8,
+    "expected": 8
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.controller_cpu",
+    "actual": 16,
+    "expected": 16
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.exact_waveform",
+    "actual": [
+      true,
+      true,
+      0.0
+    ],
+    "expected": [
+      true,
+      true,
+      0.0
+    ]
+  },
+  {
+    "label": "result/final-validation/klu8-20261115-051336-94122/block-07/A.snapshots",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "original.unique build id",
+    "actual": 1,
+    "expected": 1
+  },
+  {
+    "label": "optimized.unique build id",
+    "actual": 1,
+    "expected": 1
+  },
+  {
+    "label": "original build id",
+    "actual": [
+      "01edcba88a625a629a46436666687890450d2f32"
+    ],
+    "expected": [
+      "01edcba88a625a629a46436666687890450d2f32"
+    ]
+  },
+  {
+    "label": "sampled run intervals disjoint",
+    "actual": true,
+    "expected": true
+  },
+  {
+    "label": "distinct final ELF build id",
+    "actual": true,
+    "expected": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "performance_host": "hg7490",
+  "os_evidence": "config/host.txt",
+  "native_linkage": "config/elf-libraries.txt",
+  "compiler_configuration": "../eda/bolt/src/ngspice/configure-v2.args",
+  "numa_audit": "test/numa/klu8-20261115-051336-94122",
+  "pmu": "unavailable; profiling uses cpu-clock:u at 99 Hz",
+  "connection_alias": "hgserver",
+  "verification_host": null
+}

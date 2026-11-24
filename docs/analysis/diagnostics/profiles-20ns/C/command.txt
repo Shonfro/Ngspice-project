@@ -1,0 +1,1 @@
+perf record -e cpu-clock:u -F 99 -g -- /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice -n -b driver.cir

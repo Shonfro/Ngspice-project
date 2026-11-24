@@ -1,0 +1,1 @@
+perf record -e cpu-clock:u -F 99 -- ngspice -n -b driver.cir

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "finite": true,
+  "reached_stop": true,
+  "monotonic_times": true,
+  "signal_coverage": true,
+  "signals": [
+    "time",
+    "v(g7529_1)",
+    "v(g7509_0)",
+    "v(g7552_0)"
+  ],
+  "expected_signals": [
+    "v(g7529_1)",
+    "v(g7509_0)",
+    "v(g7552_0)"
+  ],
+  "points": 2136,
+  "first_time": 1e-14,
+  "last_time": 2e-08,
+  "simulation_complete": true,
+  "klu_observed": true,
+  "solver_observed_matches": true,
+  "configured_threads_match": true,
+  "simulator_statistics": {
+    "configured_threads": 8,
+    "omp_num_threads": 8
+  },
+  "thread_evidence_scope": "Simulator num_threads and environment readback, NOT active worker count",
+  "comparison_scope": "Headless selected-output instrumentation: v(g7529_1), v(g7509_0), v(g7552_0); NOT original plot-all IO. Original adaptive tran TSTEP/TSTART/TMAX/UIC preserved.",
+  "live_elf_observed": true
+}

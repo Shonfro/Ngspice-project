@@ -1,0 +1,5 @@
+config,function,self_cpu_percent,children_cpu_percent,samples,sample_percent,dso,call_path,status
+A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not_collected
+B,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not_collected
+C,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not_collected
+D,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not_collected

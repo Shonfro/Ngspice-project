@@ -1,0 +1,32 @@
+{
+  "at_utc": "2026-11-20T04:02:33.467333+00:00",
+  "host": "hg7490",
+  "node": 1,
+  "unit_tests": 8,
+  "integration_cases": 3,
+  "checks": [
+    "Actual compiler/OpenMP build probe",
+    "Actual cpu-clock:u record/report",
+    "Actual TLC/Z3 positive and negative controls",
+    "Relocated package with spaces and Chinese characters",
+    "Simulated incompatible bundled perf followed by host perf fallback",
+    "Invalid node rejection",
+    "Explicit invalid perf rejection"
+  ],
+  "scope": "Environment and entry-point validation only; no new formal performance measurements or NUMA performance experiments",
+  "previous_smoke": "results/automation-smoke-node1: earlier six simulations including compilation/profiling/rewrite/waveform validation",
+  "limitations": [
+    "No solegpu1 execution performed by this agent",
+    "Fallback resolver tested with a simulated incompatible bundled perf and a known-working hg7490 perf exposed as host perf; not a claim of Ubuntu kernel compatibility",
+    "System package installer was not executed",
+    "Unknown-host full results must be verified on that host"
+  ],
+  "code_sha256": {
+    "run.sh": "9d48679bfc2f558b05f4171af7a4c7194db3681377a734e463f674c9cb7e5850",
+    "run-on-node.sh": "b793239972b769fec9f098fd26af926891b12eff6a25e0034b8b57671a18e11a",
+    "prepare-host.sh": "b761ef2f441c1647267d34b4aaf4b48702a5e7c6c1bdb79dab12785ffc752119",
+    "source/code/launch.py": "8ff605ea199c4188fdebe25666ad437a38eb1e56d1af687461777be64bdb0144",
+    "source/code/full.py": "2d32cd3ec0728694a00d71ba36e74da28c13286ccfef951ee3d1fc818a9ca78c",
+    "results/formal-hg7490/run.sh": "cacdf4d8d1dd4f1693e58abbe1650c172cb08bec168dd85735112d94bfea1227"
+  }
+}

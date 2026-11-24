@@ -1,0 +1,589 @@
+batch,config,block,phase,seconds,source
+20ns-formal,A,block-01,Total elapsed time (seconds),499.199,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Netlist loading time,41.62,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Subckt and Param expansion time,31.485,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Netlist parsing time,18.4301,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Total analysis time (seconds),426.085,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Matrix load time,251.392,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Matrix reorder time,0.0405939,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Matrix factor time,55.1936,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Matrix solve time,19.3454,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient analysis time,424.823,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient load time,250.971,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient factor time,55.1936,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient solve time,19.3454,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,Transient trunc time,44.0327,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,A,block-01,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/A/metrics.json
+20ns-formal,B,block-01,Total elapsed time (seconds),490.341,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Netlist loading time,42.0684,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Subckt and Param expansion time,31.4251,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Netlist parsing time,18.3653,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Total analysis time (seconds),416.839,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Matrix load time,246.194,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Matrix reorder time,0.0402535,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Matrix factor time,55.2308,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Matrix solve time,19.1728,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient analysis time,415.61,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient load time,245.783,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient factor time,55.2308,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient solve time,19.1728,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,Transient trunc time,42.4728,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,B,block-01,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/B/metrics.json
+20ns-formal,C,block-01,Total elapsed time (seconds),386.617,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Netlist loading time,39.3103,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Subckt and Param expansion time,23.3237,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Netlist parsing time,15.2088,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Total analysis time (seconds),323.975,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Matrix load time,189.482,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Matrix reorder time,0.0479441,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Matrix factor time,55.5582,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Matrix solve time,19.0764,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient analysis time,322.943,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient load time,189.17,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient factor time,55.5582,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient solve time,19.0764,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,Transient trunc time,29.0127,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,C,block-01,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/C/metrics.json
+20ns-formal,D,block-01,Total elapsed time (seconds),387.491,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Netlist loading time,31.4835,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Subckt and Param expansion time,23.9176,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Netlist parsing time,15.8244,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Total analysis time (seconds),332.081,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Matrix load time,200.006,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Matrix reorder time,0.045738,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Matrix factor time,53.9053,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Matrix solve time,19.0604,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient analysis time,331.047,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient load time,199.688,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient factor time,53.9053,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient solve time,19.0604,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,Transient trunc time,27.4427,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,D,block-01,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-01/D/metrics.json
+20ns-formal,A,block-02,Total elapsed time (seconds),501.613,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Netlist loading time,41.6937,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Subckt and Param expansion time,31.2808,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Netlist parsing time,18.1888,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Total analysis time (seconds),428.63,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Matrix load time,254.914,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Matrix reorder time,0.0415428,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Matrix factor time,55.6486,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Matrix solve time,19.3171,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient analysis time,427.385,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient load time,254.493,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient factor time,55.6486,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient solve time,19.3171,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,Transient trunc time,44.3013,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,A,block-02,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/A/metrics.json
+20ns-formal,B,block-02,Total elapsed time (seconds),494.291,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Netlist loading time,41.7028,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Subckt and Param expansion time,31.2514,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Netlist parsing time,18.3407,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Total analysis time (seconds),421.328,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Matrix load time,250.732,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Matrix reorder time,0.0403572,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Matrix factor time,55.7222,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Matrix solve time,19.035,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient analysis time,420.082,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient load time,250.305,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient factor time,55.7222,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient solve time,19.035,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,Transient trunc time,42.6985,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,B,block-02,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/B/metrics.json
+20ns-formal,C,block-02,Total elapsed time (seconds),400.272,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Netlist loading time,39.0088,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Subckt and Param expansion time,23.2553,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Netlist parsing time,15.1252,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Total analysis time (seconds),337.999,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Matrix load time,204.774,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Matrix reorder time,0.0478708,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Matrix factor time,54.9125,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Matrix solve time,18.9687,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient analysis time,337.016,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient load time,204.447,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient factor time,54.9125,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient solve time,18.9687,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,Transient trunc time,28.8155,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,C,block-02,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/C/metrics.json
+20ns-formal,D,block-02,Total elapsed time (seconds),382.412,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Netlist loading time,31.4187,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Subckt and Param expansion time,23.8878,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Netlist parsing time,15.9155,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Total analysis time (seconds),327.096,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Matrix load time,194.188,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Matrix reorder time,0.0452162,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Matrix factor time,53.9012,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Matrix solve time,18.9735,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient analysis time,326.127,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient load time,193.868,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient factor time,53.9012,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient solve time,18.9735,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,Transient trunc time,27.9438,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,D,block-02,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-02/D/metrics.json
+20ns-formal,A,block-03,Total elapsed time (seconds),500.773,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Netlist loading time,41.5531,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Subckt and Param expansion time,31.2018,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Netlist parsing time,18.1229,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Total analysis time (seconds),428.01,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Matrix load time,254.222,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Matrix reorder time,0.0402299,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Matrix factor time,54.9457,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Matrix solve time,19.1097,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient analysis time,426.756,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient load time,253.807,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient factor time,54.9457,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient solve time,19.1097,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,Transient trunc time,44.1413,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,A,block-03,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/A/metrics.json
+20ns-formal,B,block-03,Total elapsed time (seconds),512.539,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Netlist loading time,41.8293,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Subckt and Param expansion time,31.1923,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Netlist parsing time,18.2121,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Total analysis time (seconds),439.509,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Matrix load time,263.095,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Matrix reorder time,0.040475,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Matrix factor time,56.4393,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Matrix solve time,19.2002,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient analysis time,438.254,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient load time,262.666,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient factor time,56.4393,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient solve time,19.2002,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,Transient trunc time,45.0446,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,B,block-03,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/B/metrics.json
+20ns-formal,C,block-03,Total elapsed time (seconds),397.457,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Netlist loading time,39.0223,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Subckt and Param expansion time,23.0256,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Netlist parsing time,15.1056,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Total analysis time (seconds),335.401,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Matrix load time,202.213,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Matrix reorder time,0.0478249,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Matrix factor time,55.4117,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Matrix solve time,18.8953,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient analysis time,334.42,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient load time,201.892,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient factor time,55.4117,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient solve time,18.8953,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,Transient trunc time,28.574,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,C,block-03,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/C/metrics.json
+20ns-formal,D,block-03,Total elapsed time (seconds),373.184,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Netlist loading time,31.5734,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Subckt and Param expansion time,24.0123,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Netlist parsing time,15.9411,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Total analysis time (seconds),317.589,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Matrix load time,187.924,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Matrix reorder time,0.0456931,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Matrix factor time,53.1336,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Matrix solve time,18.8324,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient analysis time,316.604,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient load time,187.603,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient factor time,53.1336,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient solve time,18.8324,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,Transient trunc time,26.6116,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,D,block-03,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-03/D/metrics.json
+20ns-formal,A,block-04,Total elapsed time (seconds),497.236,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Netlist loading time,41.6025,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Subckt and Param expansion time,29.4424,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Netlist parsing time,17.3773,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Total analysis time (seconds),426.183,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Matrix load time,251.933,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Matrix reorder time,0.0414195,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Matrix factor time,55.2127,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Matrix solve time,19.1488,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient analysis time,425.016,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient load time,251.506,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient factor time,55.2127,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient solve time,19.1488,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,Transient trunc time,44.3962,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,A,block-04,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/A/metrics.json
+20ns-formal,B,block-04,Total elapsed time (seconds),487.362,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Netlist loading time,41.7769,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Subckt and Param expansion time,31.1698,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Netlist parsing time,18.2403,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Total analysis time (seconds),414.407,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Matrix load time,241.563,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Matrix reorder time,0.0402545,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Matrix factor time,54.823,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Matrix solve time,19.3692,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient analysis time,413.054,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient load time,241.144,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient factor time,54.823,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient solve time,19.3692,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,Transient trunc time,43.6152,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,B,block-04,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/B/metrics.json
+20ns-formal,C,block-04,Total elapsed time (seconds),370.655,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Netlist loading time,38.9082,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Subckt and Param expansion time,23.1931,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Netlist parsing time,15.1076,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Total analysis time (seconds),308.545,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Matrix load time,179.099,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Matrix reorder time,0.0485625,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Matrix factor time,56.3,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Matrix solve time,18.0121,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient analysis time,307.57,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient load time,178.786,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient factor time,56.3,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient solve time,18.0121,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,Transient trunc time,27.4822,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,C,block-04,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/C/metrics.json
+20ns-formal,D,block-04,Total elapsed time (seconds),381.394,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Netlist loading time,31.6066,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Subckt and Param expansion time,23.9075,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Netlist parsing time,15.8745,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Total analysis time (seconds),325.871,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Matrix load time,193.655,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Matrix reorder time,0.0451826,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Matrix factor time,54.1602,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Matrix solve time,19.3821,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient analysis time,324.825,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient load time,193.346,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient factor time,54.1602,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient solve time,19.3821,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,Transient trunc time,27.062,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,D,block-04,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-04/D/metrics.json
+20ns-formal,A,block-05,Total elapsed time (seconds),483.066,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Netlist loading time,41.4481,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Subckt and Param expansion time,29.1226,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Netlist parsing time,17.1665,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Total analysis time (seconds),412.487,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Matrix load time,242.95,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Matrix reorder time,0.0400753,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Matrix factor time,54.6434,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Matrix solve time,19.3132,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient analysis time,411.39,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient load time,242.544,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient factor time,54.6434,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient solve time,19.3132,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,Transient trunc time,42.369,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,A,block-05,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/A/metrics.json
+20ns-formal,B,block-05,Total elapsed time (seconds),496.9,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Netlist loading time,41.5559,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Subckt and Param expansion time,29.2434,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Netlist parsing time,17.071,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Total analysis time (seconds),426.092,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Matrix load time,249.911,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Matrix reorder time,0.0403212,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Matrix factor time,56.0463,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Matrix solve time,20.1319,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient analysis time,424.95,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient load time,249.493,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient factor time,56.0463,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient solve time,20.1319,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,Transient trunc time,44.6746,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,B,block-05,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/B/metrics.json
+20ns-formal,C,block-05,Total elapsed time (seconds),384.146,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Netlist loading time,38.8479,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Subckt and Param expansion time,22.8498,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Netlist parsing time,15.0384,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Total analysis time (seconds),322.44,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Matrix load time,188.996,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Matrix reorder time,0.0482389,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Matrix factor time,55.5233,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Matrix solve time,19.4717,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient analysis time,321.481,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient load time,188.682,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient factor time,55.5233,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient solve time,19.4717,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,Transient trunc time,28.3068,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,C,block-05,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/C/metrics.json
+20ns-formal,D,block-05,Total elapsed time (seconds),380.956,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Netlist loading time,31.4426,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Subckt and Param expansion time,23.7317,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Netlist parsing time,15.789,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Total analysis time (seconds),325.773,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Matrix load time,191.254,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Matrix reorder time,0.0458913,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Matrix factor time,55.3724,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Matrix solve time,19.2043,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient analysis time,324.78,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient load time,190.937,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient factor time,55.3724,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient solve time,19.2043,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,Transient trunc time,27.6586,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,D,block-05,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-05/D/metrics.json
+20ns-formal,A,block-06,Total elapsed time (seconds),473.717,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Netlist loading time,41.4711,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Subckt and Param expansion time,29.1965,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Netlist parsing time,17.3023,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Total analysis time (seconds),403.042,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Matrix load time,234.422,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Matrix reorder time,0.0402309,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Matrix factor time,55.88,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Matrix solve time,19.4001,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient analysis time,401.922,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient load time,234.021,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient factor time,55.88,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient solve time,19.4001,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,Transient trunc time,41.1448,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,A,block-06,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/A/metrics.json
+20ns-formal,B,block-06,Total elapsed time (seconds),483.542,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Netlist loading time,41.5299,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Subckt and Param expansion time,29.1047,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Netlist parsing time,17.0562,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Total analysis time (seconds),412.899,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Matrix load time,241.306,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Matrix reorder time,0.0410541,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Matrix factor time,55.5598,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Matrix solve time,19.143,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient analysis time,411.762,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient load time,240.885,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient factor time,55.5598,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient solve time,19.143,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,Transient trunc time,43.4296,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,B,block-06,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/B/metrics.json
+20ns-formal,C,block-06,Total elapsed time (seconds),388.09,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Netlist loading time,38.8012,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Subckt and Param expansion time,22.79,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Netlist parsing time,15.0938,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Total analysis time (seconds),326.491,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Matrix load time,190.655,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Matrix reorder time,0.0477624,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Matrix factor time,55.8674,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Matrix solve time,19.3437,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient analysis time,325.552,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient load time,190.356,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient factor time,55.8674,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient solve time,19.3437,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,Transient trunc time,29.2212,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,C,block-06,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/C/metrics.json
+20ns-formal,D,block-06,Total elapsed time (seconds),381.624,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Netlist loading time,31.4242,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Subckt and Param expansion time,23.3149,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Netlist parsing time,15.6015,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Total analysis time (seconds),326.877,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Matrix load time,195.091,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Matrix reorder time,0.0450978,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Matrix factor time,54.854,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Matrix solve time,19.0461,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient analysis time,325.96,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient load time,194.795,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient factor time,54.854,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient solve time,19.0461,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,Transient trunc time,26.9358,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,D,block-06,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-06/D/metrics.json
+20ns-formal,A,block-07,Total elapsed time (seconds),491.306,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Netlist loading time,41.5681,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Subckt and Param expansion time,29.6988,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Netlist parsing time,17.5364,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Total analysis time (seconds),420.031,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Matrix load time,249.862,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Matrix reorder time,0.0408375,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Matrix factor time,56.0692,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Matrix solve time,19.0589,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient analysis time,418.814,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient load time,249.442,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient factor time,56.0692,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient solve time,19.0589,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,Transient trunc time,42.0915,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,A,block-07,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/A/metrics.json
+20ns-formal,B,block-07,Total elapsed time (seconds),489.859,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Netlist loading time,41.6026,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Subckt and Param expansion time,29.7021,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Netlist parsing time,17.5785,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Total analysis time (seconds),418.546,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Matrix load time,248.612,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Matrix reorder time,0.0415543,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Matrix factor time,56.0566,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Matrix solve time,18.508,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient analysis time,417.328,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient load time,248.192,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient factor time,56.0566,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient solve time,18.508,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,Transient trunc time,42.8613,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,B,block-07,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/B/metrics.json
+20ns-formal,C,block-07,Total elapsed time (seconds),384.999,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Netlist loading time,38.7835,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Subckt and Param expansion time,22.869,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Netlist parsing time,15.0464,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Total analysis time (seconds),323.338,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Matrix load time,189.2,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Matrix reorder time,0.0481252,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Matrix factor time,55.6646,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Matrix solve time,19.2112,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient analysis time,322.384,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient load time,188.884,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient factor time,55.6646,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient solve time,19.2112,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,Transient trunc time,28.6522,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,C,block-07,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/C/metrics.json
+20ns-formal,D,block-07,Total elapsed time (seconds),368.648,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Netlist loading time,31.4313,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Subckt and Param expansion time,23.3066,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Netlist parsing time,15.5391,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Total analysis time (seconds),313.902,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Matrix load time,184.016,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Matrix synchronize time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Matrix reorder time,0.0455483,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Matrix factor time,54.1585,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Matrix solve time,18.8852,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient analysis time,312.977,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient load time,183.709,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient factor time,54.1585,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient solve time,18.8852,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,Transient trunc time,26.5639,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,AC analysis time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,AC load time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,AC sync time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,AC factor time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json
+20ns-formal,D,block-07,AC solve time,0.0,/home/lyy/workplace/deliveries/51295903059_?????????/result/dynamic_library/20ns/measurements/formal-20ns/formal/block-07/D/metrics.json

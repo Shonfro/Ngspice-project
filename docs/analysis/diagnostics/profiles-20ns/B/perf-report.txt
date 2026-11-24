@@ -1,0 +1,1374 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 96K of event 'cpu-clock:u'
+# Event count (approx.): 978414131630
+#
+# Children      Self  Shared Object       Symbol                                  
+# ........  ........  ..................  ........................................
+#
+    56.91%     0.15%  ngspice             [.] BSIM4v5load._omp_fn.0
+            |          
+             --56.76%--BSIM4v5load._omp_fn.0
+                       BSIM4v5LoadOMP
+                       |          
+                       |--6.21%--__GI___exp
+                       |          |          
+                       |           --6.02%--__ieee754_exp_sse2
+                       |          
+                       |--3.41%--__ieee754_log_sse2
+                       |          
+                        --1.06%--NIintegrate
+
+    56.76%    45.47%  ngspice             [.] BSIM4v5LoadOMP
+            |          
+            |--39.35%--__clone
+            |          start_thread
+            |          0x7fe3ec4bf404
+            |          BSIM4v5load._omp_fn.0
+            |          BSIM4v5LoadOMP
+            |          
+            |--11.29%--BSIM4v5LoadOMP
+            |          |          
+            |          |--6.21%--__GI___exp
+            |          |          |          
+            |          |           --6.02%--__ieee754_exp_sse2
+            |          |          
+            |          |--3.41%--__ieee754_log_sse2
+            |          |          
+            |           --1.06%--NIintegrate
+            |          
+             --6.12%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       |          
+                        --6.10%--NIiter
+                                  CKTload
+                                  BSIM4v5load
+                                  BSIM4v5load._omp_fn.0
+                                  BSIM4v5LoadOMP
+
+    52.49%     0.00%  libc-2.17.so        [.] __clone
+            |
+            ---__clone
+               start_thread
+               |          
+               |--49.41%--0x7fe3ec4bf404
+               |          BSIM4v5load._omp_fn.0
+               |          |          
+               |           --49.27%--BSIM4v5LoadOMP
+               |                     |          
+               |                     |--5.46%--__GI___exp
+               |                     |          |          
+               |                     |           --5.29%--__ieee754_exp_sse2
+               |                     |          
+               |                     |--2.98%--__ieee754_log_sse2
+               |                     |          
+               |                      --0.96%--NIintegrate
+               |          
+               |--1.68%--0x7fe3ec4bf3df
+               |          |          
+               |           --1.11%--0x7fe3ec4c1b21
+               |          
+                --1.40%--0x7fe3ec4bf410
+                          |          
+                           --0.93%--0x7fe3ec4c1c99
+
+    52.49%     0.00%  libpthread-2.17.so  [.] start_thread
+            |
+            ---start_thread
+               |          
+               |--49.41%--0x7fe3ec4bf404
+               |          BSIM4v5load._omp_fn.0
+               |          |          
+               |           --49.27%--BSIM4v5LoadOMP
+               |                     |          
+               |                     |--5.46%--__GI___exp
+               |                     |          |          
+               |                     |           --5.29%--__ieee754_exp_sse2
+               |                     |          
+               |                     |--2.98%--__ieee754_log_sse2
+               |                     |          
+               |                      --0.96%--NIintegrate
+               |          
+               |--1.68%--0x7fe3ec4bf3df
+               |          |          
+               |           --1.11%--0x7fe3ec4c1b21
+               |          
+                --1.40%--0x7fe3ec4bf410
+                          |          
+                           --0.93%--0x7fe3ec4c1c99
+
+    49.41%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf404
+            |
+            ---0x7fe3ec4bf404
+               BSIM4v5load._omp_fn.0
+               |          
+                --49.27%--BSIM4v5LoadOMP
+                          |          
+                          |--5.46%--__GI___exp
+                          |          |          
+                          |           --5.29%--__ieee754_exp_sse2
+                          |          
+                          |--2.98%--__ieee754_log_sse2
+                          |          
+                           --0.96%--NIintegrate
+
+    40.11%     0.00%  ngspice             [.] dosim
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               |          
+                --40.04%--DCtran
+                          |          
+                          |--35.80%--NIiter
+                          |          |          
+                          |          |--23.28%--CKTload
+                          |          |          |          
+                          |          |          |--14.13%--BSIM4v5load
+                          |          |          |          |          
+                          |          |          |          |--7.49%--BSIM4v5load._omp_fn.0
+                          |          |          |          |          |          
+                          |          |          |          |           --7.47%--BSIM4v5LoadOMP
+                          |          |          |          |                     |          
+                          |          |          |          |                      --0.76%--__GI___exp
+                          |          |          |          |                                |          
+                          |          |          |          |                                 --0.73%--__ieee754_exp_sse2
+                          |          |          |          |          
+                          |          |          |           --6.48%--BSIM4v5LoadRhsMat
+                          |          |          |          
+                          |          |          |--6.09%--CAPload
+                          |          |          |          
+                          |          |           --2.56%--RESload
+                          |          |          
+                          |          |--5.61%--SMPluFac
+                          |          |          klu_refactor
+                          |          |          |          
+                          |          |           --1.40%--klu_scale
+                          |          |          
+                          |          |--4.09%--NIconvTest
+                          |          |          |          
+                          |          |           --1.76%--CKTconvTest
+                          |          |                     |          
+                          |          |                      --1.75%--BSIM4v5convTest
+                          |          |          
+                          |          |--1.93%--SMPsolve
+                          |          |          |          
+                          |          |           --1.64%--klu_solve
+                          |          |                     |          
+                          |          |                      --0.55%--klu_usolve
+                          |          |          
+                          |           --0.75%--__memcpy_sse2
+                          |          
+                           --4.17%--CKTtrunc
+                                     |          
+                                     |--2.48%--BSIM4v5trunc
+                                     |          |          
+                                     |           --0.77%--CKTterr
+                                     |          
+                                      --1.69%--CAPtrunc
+                                                |          
+                                                 --0.55%--CKTterr
+
+    40.11%     0.00%  ngspice             [.] if_run
+            |
+            ---if_run
+               CKTdoJob
+               |          
+                --40.04%--DCtran
+                          |          
+                          |--35.80%--NIiter
+                          |          |          
+                          |          |--23.28%--CKTload
+                          |          |          |          
+                          |          |          |--14.13%--BSIM4v5load
+                          |          |          |          |          
+                          |          |          |          |--7.49%--BSIM4v5load._omp_fn.0
+                          |          |          |          |          |          
+                          |          |          |          |           --7.47%--BSIM4v5LoadOMP
+                          |          |          |          |                     |          
+                          |          |          |          |                      --0.76%--__GI___exp
+                          |          |          |          |                                |          
+                          |          |          |          |                                 --0.73%--__ieee754_exp_sse2
+                          |          |          |          |          
+                          |          |          |           --6.48%--BSIM4v5LoadRhsMat
+                          |          |          |          
+                          |          |          |--6.09%--CAPload
+                          |          |          |          
+                          |          |           --2.56%--RESload
+                          |          |          
+                          |          |--5.61%--SMPluFac
+                          |          |          klu_refactor
+                          |          |          |          
+                          |          |           --1.40%--klu_scale
+                          |          |          
+                          |          |--4.09%--NIconvTest
+                          |          |          |          
+                          |          |           --1.76%--CKTconvTest
+                          |          |                     |          
+                          |          |                      --1.75%--BSIM4v5convTest
+                          |          |          
+                          |          |--1.93%--SMPsolve
+                          |          |          |          
+                          |          |           --1.64%--klu_solve
+                          |          |                     |          
+                          |          |                      --0.55%--klu_usolve
+                          |          |          
+                          |           --0.75%--__memcpy_sse2
+                          |          
+                           --4.17%--CKTtrunc
+                                     |          
+                                     |--2.48%--BSIM4v5trunc
+                                     |          |          
+                                     |           --0.77%--CKTterr
+                                     |          
+                                      --1.69%--CAPtrunc
+                                                |          
+                                                 --0.55%--CKTterr
+
+    40.11%     0.00%  ngspice             [.] CKTdoJob
+            |
+            ---CKTdoJob
+               |          
+                --40.04%--DCtran
+                          |          
+                          |--35.80%--NIiter
+                          |          |          
+                          |          |--23.28%--CKTload
+                          |          |          |          
+                          |          |          |--14.13%--BSIM4v5load
+                          |          |          |          |          
+                          |          |          |          |--7.49%--BSIM4v5load._omp_fn.0
+                          |          |          |          |          |          
+                          |          |          |          |           --7.47%--BSIM4v5LoadOMP
+                          |          |          |          |                     |          
+                          |          |          |          |                      --0.76%--__GI___exp
+                          |          |          |          |                                |          
+                          |          |          |          |                                 --0.73%--__ieee754_exp_sse2
+                          |          |          |          |          
+                          |          |          |           --6.48%--BSIM4v5LoadRhsMat
+                          |          |          |          
+                          |          |          |--6.09%--CAPload
+                          |          |          |          
+                          |          |           --2.56%--RESload
+                          |          |          
+                          |          |--5.61%--SMPluFac
+                          |          |          klu_refactor
+                          |          |          |          
+                          |          |           --1.40%--klu_scale
+                          |          |          
+                          |          |--4.09%--NIconvTest
+                          |          |          |          
+                          |          |           --1.76%--CKTconvTest
+                          |          |                     |          
+                          |          |                      --1.75%--BSIM4v5convTest
+                          |          |          
+                          |          |--1.93%--SMPsolve
+                          |          |          |          
+                          |          |           --1.64%--klu_solve
+                          |          |                     |          
+                          |          |                      --0.55%--klu_usolve
+                          |          |          
+                          |           --0.75%--__memcpy_sse2
+                          |          
+                           --4.17%--CKTtrunc
+                                     |          
+                                     |--2.48%--BSIM4v5trunc
+                                     |          |          
+                                     |           --0.77%--CKTterr
+                                     |          
+                                      --1.69%--CAPtrunc
+                                                |          
+                                                 --0.55%--CKTterr
+
+    40.04%     0.00%  ngspice             [.] DCtran
+            |          
+             --40.04%--DCtran
+                       |          
+                       |--35.80%--NIiter
+                       |          |          
+                       |          |--23.28%--CKTload
+                       |          |          |          
+                       |          |          |--14.13%--BSIM4v5load
+                       |          |          |          |          
+                       |          |          |          |--7.49%--BSIM4v5load._omp_fn.0
+                       |          |          |          |          |          
+                       |          |          |          |           --7.47%--BSIM4v5LoadOMP
+                       |          |          |          |                     |          
+                       |          |          |          |                      --0.76%--__GI___exp
+                       |          |          |          |                                |          
+                       |          |          |          |                                 --0.73%--__ieee754_exp_sse2
+                       |          |          |          |          
+                       |          |          |           --6.48%--BSIM4v5LoadRhsMat
+                       |          |          |          
+                       |          |          |--6.09%--CAPload
+                       |          |          |          
+                       |          |           --2.56%--RESload
+                       |          |          
+                       |          |--5.61%--SMPluFac
+                       |          |          klu_refactor
+                       |          |          |          
+                       |          |           --1.40%--klu_scale
+                       |          |          
+                       |          |--4.09%--NIconvTest
+                       |          |          |          
+                       |          |           --1.76%--CKTconvTest
+                       |          |                     |          
+                       |          |                      --1.75%--BSIM4v5convTest
+                       |          |          
+                       |          |--1.93%--SMPsolve
+                       |          |          |          
+                       |          |           --1.64%--klu_solve
+                       |          |                     |          
+                       |          |                      --0.55%--klu_usolve
+                       |          |          
+                       |           --0.75%--__memcpy_sse2
+                       |          
+                        --4.17%--CKTtrunc
+                                  |          
+                                  |--2.48%--BSIM4v5trunc
+                                  |          |          
+                                  |           --0.77%--CKTterr
+                                  |          
+                                   --1.69%--CAPtrunc
+                                             |          
+                                              --0.55%--CKTterr
+
+    35.85%     0.00%  ngspice             [.] NIiter
+            |
+            ---NIiter
+               |          
+               |--23.32%--CKTload
+               |          |          
+               |          |--14.15%--BSIM4v5load
+               |          |          |          
+               |          |          |--7.50%--BSIM4v5load._omp_fn.0
+               |          |          |          |          
+               |          |          |           --7.49%--BSIM4v5LoadOMP
+               |          |          |                     |          
+               |          |          |                      --0.76%--__GI___exp
+               |          |          |                                |          
+               |          |          |                                 --0.73%--__ieee754_exp_sse2
+               |          |          |          
+               |          |           --6.50%--BSIM4v5LoadRhsMat
+               |          |          
+               |          |--6.10%--CAPload
+               |          |          
+               |           --2.57%--RESload
+               |          
+               |--5.61%--SMPluFac
+               |          klu_refactor
+               |          |          
+               |           --1.40%--klu_scale
+               |          
+               |--4.09%--NIconvTest
+               |          |          
+               |           --1.76%--CKTconvTest
+               |                     |          
+               |                      --1.75%--BSIM4v5convTest
+               |          
+               |--1.93%--SMPsolve
+               |          |          
+               |           --1.64%--klu_solve
+               |                     |          
+               |                      --0.55%--klu_usolve
+               |          
+                --0.75%--__memcpy_sse2
+
+    23.32%     0.15%  ngspice             [.] CKTload
+            |          
+             --23.17%--CKTload
+                       |          
+                       |--14.15%--BSIM4v5load
+                       |          |          
+                       |          |--7.50%--BSIM4v5load._omp_fn.0
+                       |          |          |          
+                       |          |           --7.49%--BSIM4v5LoadOMP
+                       |          |                     |          
+                       |          |                      --0.76%--__GI___exp
+                       |          |                                |          
+                       |          |                                 --0.73%--__ieee754_exp_sse2
+                       |          |          
+                       |           --6.50%--BSIM4v5LoadRhsMat
+                       |          
+                       |--6.10%--CAPload
+                       |          
+                        --2.57%--RESload
+
+    14.15%     0.00%  ngspice             [.] BSIM4v5load
+            |          
+             --14.15%--BSIM4v5load
+                       |          
+                       |--7.50%--BSIM4v5load._omp_fn.0
+                       |          |          
+                       |           --7.49%--BSIM4v5LoadOMP
+                       |                     |          
+                       |                      --0.76%--__GI___exp
+                       |                                |          
+                       |                                 --0.73%--__ieee754_exp_sse2
+                       |          
+                        --6.50%--BSIM4v5LoadRhsMat
+
+     6.94%     0.07%  ngspice             [.] inp_spsource
+            |          
+             --6.86%--inp_spsource
+                       |          
+                       |--3.77%--inp_readall
+                       |          |          
+                       |           --3.50%--inp_reorder_params (inlined)
+                       |                     inp_sort_params
+                       |                     |          
+                       |                      --3.25%--inp_quote_params (inlined)
+                       |                                |          
+                       |                                |--1.80%--skip_token
+                       |                                |          |          
+                       |                                |           --0.66%--skip_ws (inlined)
+                       |                                |          
+                       |                                 --1.34%--ya_search_identifier (inlined)
+                       |                                           |          
+                       |                                            --1.28%--__strstr_sse2
+                       |          
+                       |--1.84%--inp_dodeck
+                       |          |          
+                       |           --1.77%--if_inpdeck
+                       |                     |          
+                       |                      --1.65%--INPpas2
+                       |                                |          
+                       |                                 --1.60%--INP2M
+                       |                                           |          
+                       |                                            --1.54%--INPgetModBin
+                       |                                                      |          
+                       |                                                       --0.81%--create_model
+                       |                                                                 |          
+                       |                                                                  --0.66%--find_model_parameter (inlined)
+                       |                                                                            |          
+                       |                                                                             --0.60%--__GI_strcmp (inlined)
+                       |          
+                        --0.88%--inp_subcktexpand
+                                  |          
+                                   --0.60%--doit
+
+     6.77%     0.00%  ngspice             [.] com_source
+            |
+            ---com_source
+               inp_spsource
+               |          
+               |--3.77%--inp_readall
+               |          |          
+               |           --3.50%--inp_reorder_params (inlined)
+               |                     inp_sort_params
+               |                     |          
+               |                      --3.25%--inp_quote_params (inlined)
+               |                                |          
+               |                                |--1.80%--skip_token
+               |                                |          |          
+               |                                |           --0.66%--skip_ws (inlined)
+               |                                |          
+               |                                 --1.34%--ya_search_identifier (inlined)
+               |                                           |          
+               |                                            --1.28%--__strstr_sse2
+               |          
+               |--1.84%--inp_dodeck
+               |          |          
+               |           --1.77%--if_inpdeck
+               |                     |          
+               |                      --1.65%--INPpas2
+               |                                |          
+               |                                 --1.60%--INP2M
+               |                                           |          
+               |                                            --1.54%--INPgetModBin
+               |                                                      |          
+               |                                                       --0.81%--create_model
+               |                                                                 |          
+               |                                                                  --0.66%--find_model_parameter (inlined)
+               |                                                                            |          
+               |                                                                             --0.60%--__GI_strcmp (inlined)
+               |          
+                --0.88%--inp_subcktexpand
+                          |          
+                           --0.60%--doit
+
+     6.50%     6.50%  ngspice             [.] BSIM4v5LoadRhsMat
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               DCtran
+               |          
+                --6.48%--NIiter
+                          CKTload
+                          BSIM4v5load
+                          BSIM4v5LoadRhsMat
+
+     6.21%     0.18%  libm-2.17.so        [.] __GI___exp
+            |          
+             --6.04%--__GI___exp
+                       |          
+                        --6.02%--__ieee754_exp_sse2
+
+     6.10%     5.88%  ngspice             [.] CAPload
+            |          
+             --5.88%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       |          
+                        --5.87%--NIiter
+                                  CKTload
+                                  CAPload
+
+     6.02%     6.00%  libm-2.17.so        [.] __ieee754_exp_sse2
+            |          
+            |--5.27%--__clone
+            |          start_thread
+            |          0x7fe3ec4bf404
+            |          BSIM4v5load._omp_fn.0
+            |          BSIM4v5LoadOMP
+            |          __GI___exp
+            |          __ieee754_exp_sse2
+            |          
+             --0.73%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       NIiter
+                       CKTload
+                       BSIM4v5load
+                       BSIM4v5load._omp_fn.0
+                       BSIM4v5LoadOMP
+                       __GI___exp
+                       __ieee754_exp_sse2
+
+     5.61%     4.22%  ngspice             [.] klu_refactor
+            |          
+            |--4.22%--dosim
+            |          if_run
+            |          CKTdoJob
+            |          DCtran
+            |          NIiter
+            |          SMPluFac
+            |          klu_refactor
+            |          
+             --1.40%--klu_refactor
+                       klu_scale
+
+     5.61%     0.00%  ngspice             [.] SMPluFac
+            |
+            ---SMPluFac
+               klu_refactor
+               |          
+                --1.40%--klu_scale
+
+     4.17%     0.00%  ngspice             [.] CKTtrunc
+            |
+            ---CKTtrunc
+               |          
+               |--2.48%--BSIM4v5trunc
+               |          |          
+               |           --0.77%--CKTterr
+               |          
+                --1.69%--CAPtrunc
+                          |          
+                           --0.55%--CKTterr
+
+     4.09%     2.33%  ngspice             [.] NIconvTest
+            |          
+            |--2.33%--dosim
+            |          if_run
+            |          CKTdoJob
+            |          DCtran
+            |          NIiter
+            |          NIconvTest
+            |          
+             --1.76%--NIconvTest
+                       |          
+                        --1.76%--CKTconvTest
+                                  |          
+                                   --1.75%--BSIM4v5convTest
+
+     3.77%     0.00%  ngspice             [.] inp_readall
+            |          
+             --3.77%--inp_readall
+                       |          
+                        --3.50%--inp_reorder_params (inlined)
+                                  inp_sort_params
+                                  |          
+                                   --3.25%--inp_quote_params (inlined)
+                                             |          
+                                             |--1.80%--skip_token
+                                             |          |          
+                                             |           --0.66%--skip_ws (inlined)
+                                             |          
+                                              --1.34%--ya_search_identifier (inlined)
+                                                        |          
+                                                         --1.28%--__strstr_sse2
+
+     3.50%     0.20%  ngspice             [.] inp_sort_params
+            |          
+             --3.30%--inp_sort_params
+                       |          
+                        --3.09%--inp_quote_params (inlined)
+                                  |          
+                                  |--1.80%--skip_token
+                                  |          |          
+                                  |           --0.66%--skip_ws (inlined)
+                                  |          
+                                   --1.29%--ya_search_identifier (inlined)
+                                             |          
+                                              --1.28%--__strstr_sse2
+
+     3.50%     0.00%  ngspice             [.] inp_reorder_params (inlined)
+            |
+            ---inp_reorder_params (inlined)
+               inp_sort_params
+               |          
+                --3.25%--inp_quote_params (inlined)
+                          |          
+                          |--1.80%--skip_token
+                          |          |          
+                          |           --0.66%--skip_ws (inlined)
+                          |          
+                           --1.34%--ya_search_identifier (inlined)
+                                     |          
+                                      --1.28%--__strstr_sse2
+
+     3.41%     3.41%  libm-2.17.so        [.] __ieee754_log_sse2
+            |          
+             --2.98%--__clone
+                       start_thread
+                       0x7fe3ec4bf404
+                       BSIM4v5load._omp_fn.0
+                       BSIM4v5LoadOMP
+                       __ieee754_log_sse2
+
+     3.25%     0.00%  ngspice             [.] inp_quote_params (inlined)
+            |
+            ---inp_quote_params (inlined)
+               |          
+               |--1.80%--skip_token
+               |          |          
+               |           --0.66%--skip_ws (inlined)
+               |          
+                --1.34%--ya_search_identifier (inlined)
+                          |          
+                           --1.28%--__strstr_sse2
+
+     2.57%     2.57%  ngspice             [.] RESload
+            |          
+             --2.57%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       |          
+                        --2.56%--NIiter
+                                  CKTload
+                                  RESload
+
+     2.48%     1.71%  ngspice             [.] BSIM4v5trunc
+            |          
+            |--1.71%--dosim
+            |          if_run
+            |          CKTdoJob
+            |          DCtran
+            |          CKTtrunc
+            |          BSIM4v5trunc
+            |          
+             --0.77%--BSIM4v5trunc
+                       CKTterr
+
+     1.93%     0.29%  ngspice             [.] SMPsolve
+            |          
+             --1.64%--SMPsolve
+                       klu_solve
+                       |          
+                        --0.55%--klu_usolve
+
+     1.84%     0.07%  ngspice             [.] inp_dodeck
+            |          
+             --1.77%--inp_dodeck
+                       |          
+                        --1.77%--if_inpdeck
+                                  |          
+                                   --1.65%--INPpas2
+                                             |          
+                                              --1.60%--INP2M
+                                                        |          
+                                                         --1.54%--INPgetModBin
+                                                                   |          
+                                                                    --0.81%--create_model
+                                                                              |          
+                                                                               --0.66%--find_model_parameter (inlined)
+                                                                                         |          
+                                                                                          --0.60%--__GI_strcmp (inlined)
+
+     1.81%     1.66%  ngspice             [.] skip_token
+            |          
+             --1.66%--com_source
+                       inp_spsource
+                       inp_readall
+                       |          
+                        --1.65%--inp_reorder_params (inlined)
+                                  inp_sort_params
+                                  inp_quote_params (inlined)
+                                  skip_token
+                                  |          
+                                   --0.66%--skip_ws (inlined)
+
+     1.77%     0.04%  ngspice             [.] if_inpdeck
+            |          
+             --1.73%--if_inpdeck
+                       |          
+                        --1.65%--INPpas2
+                                  |          
+                                   --1.60%--INP2M
+                                             |          
+                                              --1.54%--INPgetModBin
+                                                        |          
+                                                         --0.81%--create_model
+                                                                   |          
+                                                                    --0.66%--find_model_parameter (inlined)
+                                                                              |          
+                                                                               --0.60%--__GI_strcmp (inlined)
+
+     1.76%     0.00%  ngspice             [.] CKTconvTest
+            |          
+             --1.75%--CKTconvTest
+                       BSIM4v5convTest
+
+     1.75%     1.75%  ngspice             [.] BSIM4v5convTest
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               DCtran
+               NIiter
+               NIconvTest
+               CKTconvTest
+               BSIM4v5convTest
+
+     1.69%     1.14%  ngspice             [.] CAPtrunc
+            |          
+            |--1.14%--dosim
+            |          if_run
+            |          CKTdoJob
+            |          DCtran
+            |          CKTtrunc
+            |          CAPtrunc
+            |          
+             --0.55%--CAPtrunc
+                       CKTterr
+
+     1.68%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf3df
+            |
+            ---0x7fe3ec4bf3df
+               |          
+                --1.11%--0x7fe3ec4c1b21
+
+     1.65%     0.03%  ngspice             [.] INPpas2
+            |          
+             --1.62%--INPpas2
+                       |          
+                        --1.60%--INP2M
+                                  |          
+                                   --1.54%--INPgetModBin
+                                             |          
+                                              --0.81%--create_model
+                                                        |          
+                                                         --0.66%--find_model_parameter (inlined)
+                                                                   |          
+                                                                    --0.60%--__GI_strcmp (inlined)
+
+     1.64%     0.60%  ngspice             [.] klu_solve
+            |          
+            |--1.04%--klu_solve
+            |          |          
+            |           --0.55%--klu_usolve
+            |          
+             --0.60%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       NIiter
+                       SMPsolve
+                       klu_solve
+
+     1.60%     0.00%  ngspice             [.] INP2M
+            |          
+             --1.59%--INP2M
+                       |          
+                        --1.54%--INPgetModBin
+                                  |          
+                                   --0.81%--create_model
+                                             |          
+                                              --0.66%--find_model_parameter (inlined)
+                                                        |          
+                                                         --0.60%--__GI_strcmp (inlined)
+
+     1.57%     1.53%  libc-2.17.so        [.] __strstr_sse2
+            |          
+             --1.48%--com_source
+                       inp_spsource
+                       |          
+                        --1.42%--inp_readall
+                                  |          
+                                   --1.42%--inp_reorder_params (inlined)
+                                             inp_sort_params
+                                             |          
+                                              --1.27%--inp_quote_params (inlined)
+                                                        ya_search_identifier (inlined)
+                                                        __strstr_sse2
+
+     1.54%     0.13%  ngspice             [.] INPgetModBin
+            |          
+             --1.41%--INPgetModBin
+                       |          
+                        --0.81%--create_model
+                                  |          
+                                   --0.66%--find_model_parameter (inlined)
+                                             |          
+                                              --0.60%--__GI_strcmp (inlined)
+
+     1.40%     1.40%  ngspice             [.] klu_scale
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               DCtran
+               NIiter
+               |          
+                --1.40%--SMPluFac
+                          klu_refactor
+                          klu_scale
+
+     1.40%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf410
+            |
+            ---0x7fe3ec4bf410
+               |          
+                --0.93%--0x7fe3ec4c1c99
+
+     1.34%     0.00%  ngspice             [.] ya_search_identifier (inlined)
+            |
+            ---ya_search_identifier (inlined)
+               |          
+                --1.28%--__strstr_sse2
+
+     1.32%     1.32%  ngspice             [.] CKTterr
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               DCtran
+               CKTtrunc
+               |          
+               |--0.77%--BSIM4v5trunc
+               |          CKTterr
+               |          
+                --0.55%--CAPtrunc
+                          CKTterr
+
+     1.28%     1.28%  ngspice             [.] NIintegrate
+            |          
+             --0.96%--__clone
+                       start_thread
+                       0x7fe3ec4bf404
+                       BSIM4v5load._omp_fn.0
+                       BSIM4v5LoadOMP
+                       NIintegrate
+
+     1.11%     1.11%  libgomp.so.1.0.0    [.] 0x0000000000018b21
+            |
+            ---__clone
+               start_thread
+               0x7fe3ec4bf3df
+               0x7fe3ec4c1b21
+
+     1.11%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1b21
+            |
+            ---0x7fe3ec4c1b21
+
+     1.03%     1.03%  libgomp.so.1.0.0    [.] 0x0000000000018c99
+            |          
+             --0.93%--__clone
+                       start_thread
+                       0x7fe3ec4bf410
+                       0x7fe3ec4c1c99
+
+     1.03%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1c99
+            |
+            ---0x7fe3ec4c1c99
+
+     0.88%     0.07%  ngspice             [.] inp_subcktexpand
+            |          
+             --0.81%--inp_subcktexpand
+                       |          
+                        --0.60%--doit
+
+     0.81%     0.81%  libc-2.17.so        [.] __memcpy_sse2
+            |          
+             --0.75%--dosim
+                       if_run
+                       CKTdoJob
+                       DCtran
+                       NIiter
+                       __memcpy_sse2
+
+     0.81%     0.06%  ngspice             [.] create_model
+            |          
+             --0.76%--create_model
+                       |          
+                        --0.60%--find_model_parameter (inlined)
+                                  __GI_strcmp (inlined)
+
+     0.75%     0.75%  libc-2.17.so        [.] __strcmp_sse2
+            |
+            ---com_source
+               inp_spsource
+               |          
+                --0.65%--inp_dodeck
+                          if_inpdeck
+                          INPpas2
+                          |          
+                           --0.64%--INP2M
+                                     |          
+                                      --0.64%--INPgetModBin
+                                                |          
+                                                 --0.61%--create_model
+                                                           |          
+                                                            --0.60%--find_model_parameter (inlined)
+                                                                      __GI_strcmp (inlined)
+
+     0.75%     0.00%  libc-2.17.so        [.] __GI_strcmp (inlined)
+            |
+            ---__GI_strcmp (inlined)
+
+     0.67%     0.00%  ngspice             [.] skip_ws (inlined)
+            |
+            ---skip_ws (inlined)
+
+     0.66%     0.00%  ngspice             [.] find_model_parameter (inlined)
+            |
+            ---find_model_parameter (inlined)
+               |          
+                --0.60%--__GI_strcmp (inlined)
+
+     0.60%     0.07%  ngspice             [.] doit
+            |          
+             --0.53%--doit
+
+     0.55%     0.55%  ngspice             [.] klu_usolve
+            |
+            ---dosim
+               if_run
+               CKTdoJob
+               DCtran
+               NIiter
+               SMPsolve
+               klu_solve
+               klu_usolve
+
+     0.50%     0.50%  ngspice             [.] klu_lsolve
+     0.48%     0.05%  ngspice             [.] inp_read
+     0.48%     0.06%  ngspice             [.] model_name_match
+     0.43%     0.43%  ngspice             [.] BSIM4v5polyDepletion
+     0.43%     0.00%  ngspice             [.] skip_non_ws (inlined)
+     0.39%     0.39%  libc-2.17.so        [.] __strncmp_sse2
+     0.39%     0.00%  libc-2.17.so        [.] __GI_strncmp (inlined)
+     0.39%     0.00%  libc-2.17.so        [.] __calloc (inlined)
+     0.39%     0.39%  libgomp.so.1.0.0    [.] 0x0000000000018c8b
+     0.39%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1c8b
+     0.32%     0.32%  libgomp.so.1.0.0    [.] 0x0000000000018b16
+     0.32%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1b16
+     0.32%     0.32%  ngspice             [.] SMPclear
+     0.26%     0.02%  ngspice             [.] dup_string
+     0.25%     0.25%  libgomp.so.1.0.0    [.] 0x0000000000018b13
+     0.25%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1b13
+     0.25%     0.23%  ngspice             [.] ciprefix
+     0.24%     0.00%  ngspice             [.] tmalloc
+     0.24%     0.00%  ngspice             [.] comment_out_unused_subckt_models
+     0.23%     0.03%  ngspice             [.] INPevaluate
+     0.23%     0.04%  ngspice             [.] get_subckts_for_subckt
+     0.22%     0.00%  ngspice             [.] copy (inlined)
+     0.20%     0.01%  ngspice             [.] inp_deckcopy
+     0.17%     0.02%  ngspice             [.] search_plain_identifier
+     0.17%     0.00%  ngspice             [.] tmalloc
+     0.17%     0.00%  ngspice             [.] main
+     0.17%     0.00%  ngspice             [.] cp_evloop
+     0.17%     0.00%  ngspice             [.] doblock
+     0.17%     0.00%  ngspice             [.] docommand (inlined)
+     0.17%     0.00%  ngspice             [.] _start
+     0.17%     0.00%  libc-2.17.so        [.] __libc_start_main
+     0.16%     0.16%  libc-2.17.so        [.] __memset_sse2
+     0.14%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c07e8
+     0.14%     0.00%  ngspice             [.] eval_agauss (inlined)
+     0.14%     0.00%  ngspice             [.] nupa_eval
+     0.14%     0.00%  ngspice             [.] readline (inlined)
+     0.12%     0.12%  libc-2.17.so        [.] __ctype_b_loc
+     0.12%     0.12%  libgomp.so.1.0.0    [.] 0x0000000000018c8e
+     0.12%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1c8e
+     0.12%     0.05%  libc-2.17.so        [.] _int_free
+     0.12%     0.00%  libm-2.17.so        [.] __pow
+     0.12%     0.11%  libc-2.17.so        [.] _int_malloc
+     0.11%     0.08%  libm-2.17.so        [.] __ieee754_pow_sse2
+     0.11%     0.01%  ngspice             [.] parse_line
+     0.11%     0.11%  libc-2.17.so        [.] __strlen_sse2
+     0.11%     0.00%  libc-2.17.so        [.] __GI_strlen (inlined)
+     0.10%     0.00%  ngspice             [.] INPgetValue
+     0.10%     0.00%  ngspice             [.] com_quit
+     0.10%     0.00%  ngspice             [.] com_remcirc
+     0.09%     0.09%  libc-2.17.so        [.] malloc_consolidate
+     0.09%     0.09%  ngspice             [.] eval_agauss.isra.5
+     0.09%     0.00%  ngspice             [.] inp_stripcomments_deck (inlined)
+     0.08%     0.08%  libc-2.17.so        [.] __strchr_sse2
+     0.08%     0.00%  libc-2.17.so        [.] __GI_strchr (inlined)
+     0.08%     0.00%  ngspice             [.] inp_cider_models (inlined)
+     0.08%     0.00%  ngspice             [.] copy_substring (inlined)
+     0.08%     0.08%  ngspice             [.] inp_stripcomments_line.part.11
+     0.08%     0.00%  ngspice             [.] is_cider_model
+     0.08%     0.00%  ngspice             [.] inp_stripcomments_line (inlined)
+     0.08%     0.08%  libc-2.17.so        [.] _IO_getc
+     0.08%     0.00%  ngspice             [.] attrib
+     0.08%     0.08%  libc-2.17.so        [.] __libc_calloc
+     0.07%     0.04%  ngspice             [.] INPgetUTok
+     0.07%     0.01%  ngspice             [.] nupa_substitute
+     0.07%     0.03%  ngspice             [.] nghash_insert
+     0.07%     0.00%  ngspice             [.] translate (inlined)
+     0.06%     0.04%  ngspice             [.] INPgetTok
+     0.06%     0.02%  ngspice             [.] INPgetNetTok
+     0.06%     0.06%  libm-2.17.so        [.] __log
+     0.05%     0.00%  libc-2.17.so        [.] fgetc (inlined)
+     0.05%     0.00%  libc-2.17.so        [.] _IO_vfprintf_internal (inlined)
+     0.05%     0.00%  ngspice             [.] CKTop
+     0.05%     0.01%  ngspice             [.] dynamic_gmin
+     0.05%     0.05%  libc-2.17.so        [.] _int_malloc
+     0.05%     0.00%  ngspice             [.] inp_stitch_continuation_lines (inlined)
+     0.05%     0.00%  libc-2.17.so        [.] _IO_vsnprintf
+     0.05%     0.01%  ngspice             [.] nghash_resize
+     0.05%     0.00%  ngspice             [.] nupa_copy_inst_dico
+     0.05%     0.00%  ngspice             [.] CKTsetup
+     0.05%     0.05%  ngspice             [.] numnodes
+     0.05%     0.00%  ngspice             [.] modtranslate (inlined)
+     0.05%     0.05%  ngspice             [.] DEVpnjlim
+     0.05%     0.00%  ngspice             [.] eq_substr (inlined)
+     0.05%     0.00%  ngspice             [.] evaluate_expr (inlined)
+     0.05%     0.02%  ngspice             [.] INPpas3
+     0.04%     0.03%  ngspice             [.] _nghash_find
+     0.04%     0.04%  libc-2.17.so        [.] _int_free
+     0.04%     0.01%  ngspice             [.] line_free_x
+     0.04%     0.00%  ngspice             [.] nupa_subcktexit
+     0.04%     0.00%  ngspice             [.] dicostack_pop (inlined)
+     0.04%     0.01%  ngspice             [.] formula
+     0.04%     0.04%  libc-2.17.so        [.] free
+     0.04%     0.00%  ngspice             [.] nupa_copy_inst_entry
+     0.04%     0.00%  libc-2.17.so        [.] __GI___libc_free (inlined)
+     0.04%     0.00%  ngspice             [.] cp_getvar
+     0.04%     0.01%  ngspice             [.] line_free_x
+     0.04%     0.00%  ngspice             [.] nghash_free
+     0.04%     0.00%  ngspice             [.] nupa_copy_entry
+     0.04%     0.00%  ngspice             [.] tprintf
+     0.04%     0.00%  ngspice             [.] tvprintf
+     0.04%     0.03%  ngspice             [.] VSRCload
+     0.03%     0.03%  libm-2.17.so        [.] __exp1
+     0.03%     0.03%  ngspice             [.] INPpas1
+     0.03%     0.00%  ngspice             [.] INPdevParse
+     0.03%     0.00%  ngspice             [.] dotifeval (inlined)
+     0.03%     0.03%  ngspice             [.] DEVlimvds
+     0.03%     0.03%  ngspice             [.] __ctype_b_loc@plt
+     0.03%     0.03%  ngspice             [.] DEVfetlim
+     0.03%     0.00%  ngspice             [.] cp_usrvars
+     0.02%     0.00%  ngspice             [.] nupa_subcktcall
+     0.02%     0.00%  ngspice             [.] insert_new_line
+     0.02%     0.02%  ngspice             [.] ENHtranslate_poly
+     0.02%     0.00%  libc-2.17.so        [.] __GI__IO_default_xsputn (inlined)
+     0.02%     0.00%  libc-2.17.so        [.] fgetc (inlined)
+     0.02%     0.00%  ngspice             [.] nupa_del_dicoS
+     0.02%     0.00%  ngspice             [.] SMPconvertCOOtoCSC
+     0.02%     0.00%  libc-2.17.so        [.] __GI_sscanf (inlined)
+     0.02%     0.01%  ngspice             [.] cp_enqvar
+     0.02%     0.02%  libc-2.17.so        [.] vfprintf
+     0.02%     0.00%  libc-2.17.so        [.] _IO_vsscanf
+     0.02%     0.00%  libc-2.17.so        [.] __GI___qsort_r
+     0.02%     0.01%  ngspice             [.] get_subckt_model_name
+     0.02%     0.00%  ngspice             [.] INP2C
+     0.02%     0.00%  libc-2.17.so        [.] __GI___libc_realloc (inlined)
+     0.02%     0.02%  libc-2.17.so        [.] __ctype_tolower_loc
+     0.02%     0.02%  libm-2.17.so        [.] @plt
+     0.02%     0.00%  ngspice             [.] nghash_empty
+     0.02%     0.00%  libm-2.17.so        [.] __slowexp
+     0.02%     0.00%  ngspice             [.] CKTcrtElt
+     0.02%     0.00%  ngspice             [.] fetchnumber (inlined)
+     0.02%     0.01%  libc-2.17.so        [.] msort_with_tmp.part.0
+     0.02%     0.02%  libc-2.17.so        [.] malloc_consolidate
+     0.02%     0.00%  ngspice             [.] BSIM4v5param
+     0.02%     0.00%  ngspice             [.] nupa_assignment
+     0.02%     0.01%  libc-2.17.so        [.] _int_realloc
+     0.02%     0.00%  ngspice             [.] ds_cat_str (inlined)
+     0.02%     0.02%  libc-2.17.so        [.] _IO_strn_overflow
+     0.02%     0.01%  ngspice             [.] make_lower_case_copy
+     0.02%     0.00%  ngspice             [.] insertnumber (inlined)
+     0.02%     0.00%  ngspice             [.] trealloc
+     0.02%     0.00%  libc-2.17.so        [.] __GI__IO_vfscanf (inlined)
+     0.01%     0.00%  ngspice             [.] CKTtemp
+     0.01%     0.01%  libc-2.17.so        [.] memchr
+     0.01%     0.00%  libm-2.17.so        [.] __mpexp
+     0.01%     0.00%  libc-2.17.so        [.] __memchr (inlined)
+     0.01%     0.01%  ngspice             [.] BSIM4v5setup
+     0.01%     0.00%  ngspice             [.] BSIM4v5temp
+     0.01%     0.01%  libc-2.17.so        [.] __GI___strcasecmp_l
+     0.01%     0.00%  ngspice             [.] INPtabEnd
+     0.01%     0.01%  ngspice             [.] VSRCaccept
+     0.01%     0.00%  libc-2.17.so        [.] __snprintf
+     0.01%     0.00%  ngspice             [.] CKTaccept
+     0.01%     0.00%  ngspice             [.] INPtypelook
+     0.01%     0.01%  ngspice             [.] exp@plt
+     0.01%     0.00%  ngspice             [.] CKTdestroy
+     0.01%     0.00%  ngspice             [.] if_cktfree
+     0.01%     0.00%  ngspice             [.] keyword (inlined)
+     0.01%     0.00%  ngspice             [.] double_to_string (inlined)
+     0.01%     0.00%  ngspice             [.] ds_cat_str_case
+     0.01%     0.00%  ngspice             [.] trealloc
+     0.01%     0.00%  libc-2.17.so        [.] __calloc (inlined)
+     0.01%     0.00%  ngspice             [.] nlist_find (inlined)
+     0.01%     0.01%  libc-2.17.so        [.] _IO_vfscanf
+     0.01%     0.01%  libc-2.17.so        [.] _IO_default_xsputn
+     0.01%     0.00%  ngspice             [.] INP2R
+     0.01%     0.00%  ngspice             [.] INPpName
+     0.01%     0.00%  ngspice             [.] entrynb
+     0.01%     0.00%  ngspice             [.] sadd
+     0.01%     0.00%  ngspice             [.] del_attrib
+     0.01%     0.00%  ngspice             [.] sort_idlist (inlined)
+     0.01%     0.00%  ngspice             [.] chk_for_line_continuation (inlined)
+     0.01%     0.00%  ngspice             [.] BSIM4v5checkModel
+     0.01%     0.01%  libc-2.17.so        [.] __rawmemchr_sse2
+     0.01%     0.00%  ngspice             [.] ds_cat_mem_case
+     0.01%     0.00%  ngspice             [.] inp_add_levels
+     0.01%     0.01%  libc-2.17.so        [.] realloc
+     0.01%     0.01%  libm-2.17.so        [.] __mul
+     0.01%     0.00%  ngspice             [.] CKTmodCrt
+     0.01%     0.00%  ngspice             [.] var_alloc_string
+     0.01%     0.00%  ngspice             [.] sadd
+     0.01%     0.00%  ngspice             [.] var_alloc
+     0.01%     0.00%  ngspice             [.] add_subckt (inlined)
+     0.01%     0.00%  ngspice             [.] nlist_adjoin
+     0.01%     0.00%  ngspice             [.] find_subckt_1 (inlined)
+     0.01%     0.00%  ngspice             [.] tolower (inlined)
+     0.01%     0.00%  ngspice             [.] free_struct_variable
+     0.01%     0.00%  ngspice             [.] inp_remove_ws
+     0.01%     0.00%  ngspice             [.] get_number_terminals
+     0.01%     0.00%  ngspice             [.] string_expr
+     0.01%     0.00%  libc-2.17.so        [.] ____strtod_l_internal (inlined)
+     0.01%     0.00%  libm-2.17.so        [.] __dvd
+     0.01%     0.00%  ngspice             [.] devmodtranslate (inlined)
+     0.01%     0.01%  libc-2.17.so        [.] bsearch
+     0.01%     0.00%  ngspice             [.] SMPmakeElt
+     0.01%     0.00%  libc-2.17.so        [.] __GI___printf_fp_l
+     0.01%     0.00%  libc-2.17.so        [.] _IO_str_init_static_internal
+     0.01%     0.00%  ngspice             [.] CAPparam
+     0.01%     0.01%  ngspice             [.] strstr@plt
+     0.01%     0.00%  ngspice             [.] nupa_define
+     0.01%     0.01%  libc-2.17.so        [.] __isnan
+     0.01%     0.01%  ngspice             [.] _IO_getc@plt
+     0.01%     0.00%  libc-2.17.so        [.] __GI___libc_realloc (inlined)
+     0.01%     0.00%  ngspice             [.] INPgetMod
+     0.01%     0.00%  libc-2.17.so        [.] __GI___isnan (inlined)
+     0.01%     0.00%  libc-2.17.so        [.] __GI_bsearch (inlined)
+     0.01%     0.01%  [vdso]              [.] __vdso_clock_gettime
+     0.00%     0.00%  ngspice             [.] BSIM4v5bindCSC
+     0.00%     0.00%  ngspice             [.] INPdomodel
+     0.00%     0.00%  ngspice             [.] RESparam
+     0.00%     0.00%  ngspice             [.] INPinsert
+     0.00%     0.00%  ngspice             [.] SMPreorder
+     0.00%     0.00%  libc-2.17.so        [.] __memcmp_sse2
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018b10
+     0.00%     0.00%  ngspice             [.] CKTmkVolt
+     0.00%     0.00%  ngspice             [.] klu_factor
+     0.00%     0.00%  ngspice             [.] factor2 (inlined)
+     0.00%     0.00%  ngspice             [.] tprintf
+     0.00%     0.00%  ngspice             [.] fetchnumentry (inlined)
+     0.00%     0.00%  ngspice             [.] getexpress
+     0.00%     0.00%  ngspice             [.] tvprintf
+     0.00%     0.00%  libc-2.17.so        [.] _IO_vsnprintf
+     0.00%     0.00%  libc-2.17.so        [.] __GI___libc_malloc (inlined)
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1b10
+     0.00%     0.00%  ngspice             [.] find_instance_parameter (inlined)
+     0.00%     0.00%  ngspice             [.] bxx_putc (inlined)
+     0.00%     0.00%  ngspice             [.] BindCompare
+     0.00%     0.00%  ngspice             [.] calloc@plt
+     0.00%     0.00%  ngspice             [.] RESbindCSC
+     0.00%     0.00%  ngspice             [.] klu_kernel
+     0.00%     0.00%  ngspice             [.] BSIM4v5mParam
+     0.00%     0.00%  ngspice             [.] INPmakeMod
+     0.00%     0.00%  libc-2.17.so        [.] two_way_long_needle
+     0.00%     0.00%  ngspice             [.] finishLine
+     0.00%     0.00%  libm-2.17.so        [.] __sqr
+     0.00%     0.00%  ngspice             [.] IFnewUid
+     0.00%     0.00%  ngspice             [.] ds_cat_printf
+     0.00%     0.00%  ngspice             [.] ds_cat_vprintf
+     0.00%     0.00%  ngspice             [.] inp_remove_excess_ws (inlined)
+     0.00%     0.00%  ngspice             [.] klu_kernel_factor
+     0.00%     0.00%  libgomp.so.1.0.0    [.] GOMP_parallel_start
+     0.00%     0.00%  ngspice             [.] bxx_put_cstring (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] _wordcopy_fwd_aligned
+     0.00%     0.00%  ngspice             [.] INPmkTerm
+     0.00%     0.00%  libc-2.17.so        [.] str_to_mpn.isra.0
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018c88
+     0.00%     0.00%  libm-2.17.so        [.] __dbl_mp
+     0.00%     0.00%  libc-2.17.so        [.] round_and_return
+     0.00%     0.00%  ngspice             [.] CAPsetup
+     0.00%     0.00%  ngspice             [.] memcpy@plt
+     0.00%     0.00%  libc-2.17.so        [.] hack_digit.13666
+     0.00%     0.00%  libc-2.17.so        [.] __strchrnul
+     0.00%     0.00%  ngspice             [.] fetchid
+     0.00%     0.00%  ngspice             [.] operate
+     0.00%     0.00%  ngspice             [.] CKTmodParam
+     0.00%     0.00%  ngspice             [.] translate_node_name
+     0.00%     0.00%  ngspice             [.] expand_section_ref
+     0.00%     0.00%  ngspice             [.] seconds
+     0.00%     0.00%  ngspice             [.] gettok
+     0.00%     0.00%  ngspice             [.] cp_lexer
+     0.00%     0.00%  libc-2.17.so        [.] __GI_strlen (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __memmove_sse2
+     0.00%     0.00%  ngspice             [.] SMPpreOrder
+     0.00%     0.00%  ngspice             [.] expand_section_references (inlined)
+     0.00%     0.00%  ngspice             [.] add_to_sourcepath
+     0.00%     0.00%  ngspice             [.] klu_analyze
+     0.00%     0.00%  ngspice             [.] order_and_analyze (inlined)
+     0.00%     0.00%  ngspice             [.] settrans (inlined)
+     0.00%     0.00%  ngspice             [.] CKTinit
+     0.00%     0.00%  ngspice             [.] delete_libs (inlined)
+     0.00%     0.00%  ngspice             [.] inp_fix_agauss_in_param (inlined)
+     0.00%     0.00%  ngspice             [.] inp_fix_param_values
+     0.00%     0.00%  ngspice             [.] model_numnodes (inlined)
+     0.00%     0.00%  ngspice             [.] search_identifier
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c0800
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1c88
+     0.00%     0.00%  ngspice             [.] BSIM4v5mDelete
+     0.00%     0.00%  ngspice             [.] inp_fix_gnd_name (inlined)
+     0.00%     0.00%  ngspice             [.] is_arith_char
+     0.00%     0.00%  ngspice             [.] is_xspice_model (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __memset_x86_64
+     0.00%     0.00%  ngspice             [.] CompareColumn
+     0.00%     0.00%  libc-2.17.so        [.] __mpn_construct_double
+     0.00%     0.00%  ngspice             [.] CKTlinkEq
+     0.00%     0.00%  libc-2.17.so        [.] __mpn_mul_1
+     0.00%     0.00%  libc-2.17.so        [.] __GI_____strtod_l_internal
+     0.00%     0.00%  ngspice             [.] BSIM4v5getic
+     0.00%     0.00%  ngspice             [.] CAPbindCSC
+     0.00%     0.00%  ngspice             [.] CAPtemp
+     0.00%     0.00%  ngspice             [.] CKTnames
+     0.00%     0.00%  ngspice             [.] amd_2
+     0.00%     0.00%  ngspice             [.] dfs
+     0.00%     0.00%  libc-2.17.so        [.] sysmalloc
+     0.00%     0.00%  ngspice             [.] alfa
+     0.00%     0.00%  ngspice             [.] txfree
+     0.00%     0.00%  libc-2.17.so        [.] __strtoull_internal
+     0.00%     0.00%  ngspice             [.] INPgetStr
+     0.00%     0.00%  ngspice             [.] btf_strongcomp
+     0.00%     0.00%  libc-2.17.so        [.] __GI___printf_fp_l
+     0.00%     0.00%  libc-2.17.so        [.] __fxstat64
+     0.00%     0.00%  libc-2.17.so        [.] sscanf
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x000000000000de59
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x000000000000f44f
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000016445
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00000000000165dd
+     0.00%     0.00%  libc-2.17.so        [.] _IO_file_doallocate
+     0.00%     0.00%  libgomp.so.1.0.0    [.] omp_get_wtime
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x000000000001640c
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000016415
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000016b56
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00000000000177ef
+     0.00%     0.00%  libm-2.17.so        [.] sub_magnitudes
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018bb3
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018c97
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018ca4
+     0.00%     0.00%  libm-2.17.so        [.] __sub
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x0000000000018cd9
+     0.00%     0.00%  libm-2.17.so        [.] __floor_c
+     0.00%     0.00%  ngspice             [.] devices
+     0.00%     0.00%  ngspice             [.] INPtermInsert
+     0.00%     0.00%  ngspice             [.] __ctype_tolower_loc@plt
+     0.00%     0.00%  ngspice             [.] gettok_node
+     0.00%     0.00%  ngspice             [.] inp_expand_macros_in_deck
+     0.00%     0.00%  ngspice             [.] log@plt
+     0.00%     0.00%  ngspice             [.] txfree
+     0.00%     0.00%  ngspice             [.] inp_deckcopy_oc
+     0.00%     0.00%  ngspice             [.] nexttok
+     0.00%     0.00%  ngspice             [.] nghash_enumerateRE
+     0.00%     0.00%  ngspice             [.] nupa_signal
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_default_uflow (inlined)
+     0.00%     0.00%  ngspice             [.] CKTdump
+     0.00%     0.00%  ngspice             [.] INPfindVer
+     0.00%     0.00%  ngspice             [.] inp_pathresolve_at
+     0.00%     0.00%  ngspice             [.] __rawmemchr@plt
+     0.00%     0.00%  ngspice             [.] inp_meas_control
+     0.00%     0.00%  ngspice             [.] inp_probe
+     0.00%     0.00%  ngspice             [.] inp_rem_unused_models
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_default_uflow (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_file_underflow (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] phys_pages_info
+     0.00%     0.00%  ngspice             [.] OUTpBeginPlot
+     0.00%     0.00%  ngspice             [.] OUTpData
+     0.00%     0.00%  ngspice             [.] RESsetup
+     0.00%     0.00%  ngspice             [.] analyze_worker (inlined)
+     0.00%     0.00%  ngspice             [.] inp_pathresolve
+     0.00%     0.00%  ngspice             [.] pscat
+     0.00%     0.00%  ngspice             [.] inp_casefix
+     0.00%     0.00%  libc-2.17.so        [.] _IO_new_fclose (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] _IO_vsscanf
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_doallocbuf (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_file_underflow (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI_fprintf (inlined)
+     0.00%     0.00%  ngspice             [.] amd_order
+     0.00%     0.00%  ngspice             [.] beginPlot (inlined)
+     0.00%     0.00%  ngspice             [.] ds_cat_mem (inlined)
+     0.00%     0.00%  ngspice             [.] get_model_name
+     0.00%     0.00%  ngspice             [.] inp_mc_free
+     0.00%     0.00%  ngspice             [.] is_a_modelname
+     0.00%     0.00%  ngspice             [.] nupa_copy
+     0.00%     0.00%  ngspice             [.] wl_cons
+     0.00%     0.00%  libc-2.17.so        [.] _IO_str_init_static_internal
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_doallocbuf (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_file_doallocate (inlined)
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bfbd2
+     0.00%     0.00%  ngspice             [.] subckt_params_to_param (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI__IO_file_doallocate (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI___fxstat (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI___libc_free (inlined)
+     0.00%     0.00%  libc-2.17.so        [.] __GI___strtoul_internal (inlined)
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4b6e59
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4b844f
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf40c
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf415
+     0.00%     0.00%  ngspice             [.] CKTbindNode
+     0.00%     0.00%  ngspice             [.] CKTic
+     0.00%     0.00%  ngspice             [.] amd_1
+     0.00%     0.00%  ngspice             [.] dico_free_entry
+     0.00%     0.00%  ngspice             [.] inp_check_syntax
+     0.00%     0.00%  ngspice             [.] inp_compat
+     0.00%     0.00%  ngspice             [.] inp_fix_inst_calls_for_numparam
+     0.00%     0.00%  ngspice             [.] lsolve_symbolic_and_construct_column (inlined)
+     0.00%     0.00%  ngspice             [.] name_eq
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf445
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bf5dd
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4bfb56
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c07ef
+     0.00%     0.00%  libm-2.17.so        [.] __add
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1bb3
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1c97
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1ca4
+     0.00%     0.00%  libgomp.so.1.0.0    [.] 0x00007fe3ec4c1cd9
+     0.00%     0.00%  ngspice             [.] dfs (inlined)
+     0.00%     0.00%  ngspice             [.] inp_bsource_compat (inlined)
+     0.00%     0.00%  ngspice             [.] inp_grab_func (inlined)
+     0.00%     0.00%  ngspice             [.] nupa_init (inlined)
+     0.00%     0.00%  ngspice             [.] parseunit (inlined)
+     0.00%     0.00%  ngspice             [.] read_a_lib (inlined)
+     0.00%     0.00%  ngspice             [.] skip_back_ws (inlined)
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

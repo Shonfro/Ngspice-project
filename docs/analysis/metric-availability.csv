@@ -1,0 +1,8 @@
+metric,status,evidence,note
+Wall/CPU/RSS/faults/context switches,available,metrics.json,32 runs; formal subset 28
+NGSPICE phase timing,available,metrics.json phases,Matrix and transient counters present
+waveform correctness,available,validation.json,32/32 passed
+maps/library mappings,available,maps.txt,32 snapshots
+function-level perf profile,not_collected,N/A,No perf.data/perf report for A/B/C/D in preserved package
+allocator call/byte statistics,not_collected,N/A,No version-specific malloc allocator counters found
+CPU migrations/NUMA page counters per run,not_collected,N/A,"maps exists, but no per-run migration/numa telemetry field"

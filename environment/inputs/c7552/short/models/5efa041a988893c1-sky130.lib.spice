@@ -1,0 +1,261 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+******* SkyWater sky130 model library *********
+
+* Typical corner (tt)
+.lib tt
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl tt
+
+* Slow-Fast corner (sf)
+.lib sf
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "7cc2bda9b4a52f75-sf.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "cc38ff465cab0d30-specialized_cells.spice"
+.endl sf
+
+* Fast-Fast corner (ff)
+.lib ff
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "3635cfbfc67a8375-ff.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "3f6580d1d5c7997a-specialized_cells.spice"
+.endl ff
+
+* Slow-Slow corner (ss)
+.lib ss
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "1a1c30ec682899f9-ss.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "3274a8b79dfe72c8-specialized_cells.spice"
+.endl ss
+
+* Fast-Slow corner (fs)
+.lib fs
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "f29d2a964f68900f-fs.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "1cdb33f29b6f1b5a-specialized_cells.spice"
+.endl fs
+
+* Low-Low corner (ll)
+.lib ll
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "8d8f19bfd7d97285-res_low__cap_low.spice"
+.include "3b09fb3584bdc4f8-res_low__cap_low__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl ll
+
+* High-High corner (hh)
+.lib hh
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "38ec47a4a5fa0d5a-res_high__cap_high.spice"
+.include "a7e7c905ed3c7857-res_high__cap_high__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl hh
+
+* High-Low corner (hl)
+.lib hl
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "fa31c9c9a72f46cd-res_high__cap_low.spice"
+.include "c602a648587cab46-res_high__cap_low__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl hl
+
+* Low-High corner (lh)
+.lib lh
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "30bf08f792bb9c56-res_low__cap_high.spice"
+.include "459dde9efbf35abe-res_low__cap_high__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl lh
+
+* Typical corner with mismatch (tt_mm)
+.lib tt_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl tt_mm
+
+* Slow-Fast corner with mismatch (sf_mm)
+.lib sf_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "7cc2bda9b4a52f75-sf.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "cc38ff465cab0d30-specialized_cells.spice"
+.endl sf_mm
+
+* Fast-Fast corner with mismatch (ff_mm)
+.lib ff_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "3635cfbfc67a8375-ff.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "3f6580d1d5c7997a-specialized_cells.spice"
+.endl ff_mm
+
+* Slow-Slow corner with mismatch (ss_mm)
+.lib ss_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "1a1c30ec682899f9-ss.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "3274a8b79dfe72c8-specialized_cells.spice"
+.endl ss_mm
+
+* Fast-Slow corner with mismatch (fs_mm)
+.lib fs_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "f29d2a964f68900f-fs.spice"
+* Resistor/Capacitor
+.include "7c29723076a22fe5-res_typical__cap_typical.spice"
+.include "4deedaa4be27f2e1-res_typical__cap_typical__lin.spice"
+* Special cells
+.include "1cdb33f29b6f1b5a-specialized_cells.spice"
+.endl fs_mm
+
+* Low-Low corner with mismatch (ll_mm)
+.lib ll_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "8d8f19bfd7d97285-res_low__cap_low.spice"
+.include "3b09fb3584bdc4f8-res_low__cap_low__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl ll_mm
+
+* High-High corner with mismatch (hh_mm)
+.lib hh_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "38ec47a4a5fa0d5a-res_high__cap_high.spice"
+.include "a7e7c905ed3c7857-res_high__cap_high__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl hh_mm
+
+* High-Low corner with mismatch (hl_mm)
+.lib hl_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "fa31c9c9a72f46cd-res_high__cap_low.spice"
+.include "c602a648587cab46-res_high__cap_low__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl hl_mm
+
+* Low-High corner with mismatch (lh_mm)
+.lib lh_mm
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+* MOSFET
+.include "961b2e4f381bb8a6-tt.spice"
+* Resistor/Capacitor
+.include "30bf08f792bb9c56-res_low__cap_high.spice"
+.include "459dde9efbf35abe-res_low__cap_high__lin.spice"
+* Special cells
+.include "658f71e2e534f489-specialized_cells.spice"
+.endl lh_mm
+
+* Monte Carlo process variation
+
+.lib mc
+
+.param mc_mm_switch=0
+.param mc_pr_switch=1
+
+.include "94ba392849ae3466-critical.spice"
+.include "ebc2f2bc1c613f2c-montecarlo.spice"
+
+.endl mc

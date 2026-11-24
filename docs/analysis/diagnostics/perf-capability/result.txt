@@ -1,0 +1,7 @@
+return_code=0
+total 80
+-rw-rw-r--. 1 lyy lyy    42 Nov 23 22:31 perf-version.txt
+-rw-------. 1 lyy lyy 65692 Nov 23 22:31 perf.data
+-rw-rw-r--. 1 lyy lyy   145 Nov 23 22:31 record.stderr
+-rw-rw-r--. 1 lyy lyy     0 Nov 23 22:31 record.stdout
+-rw-rw-r--. 1 lyy lyy    14 Nov 23 22:31 result.txt

@@ -1,0 +1,11 @@
+{
+  "files": {
+    "/home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice": "30338761d40c04bd7158b7f20bb912b878db6210775eaf00c086a1c614cb87be",
+    "/home/lyy/workplace/ngspice_workload_select/profile/20261114-055440-34321/c7552/klu8/ngspice.bolt": "a9db72b13ab68e58711a9e1ff950141c7acfef7bff966e17ae57b6a0adc85c7d",
+    "/home/lyy/workplace/ngspice_workload_select/profile/20261114-055440-34321/c7552/klu8/ngspice.fdata": "18b033bf113e5cc7f07f9beaba209ab08ac693a0b15eba42a26a9cf85a9ea96f",
+    "/home/lyy/workplace/ngspice_workload_select/profile/20261114-055440-34321/c7552/klu8/simulation/perf.data": "7ab8884a7bb0176e20c2507ab163e94e9c15548d9a7902db47228142bd7f9396",
+    "/home/lyy/workplace/ngspice_workload_select/profile/20261114-055440-34321/c7552/klu8/llvm-bolt.log": "016834ade9931aa03e42afc3d77c006f4e10171720a92ab756f924c90488b1ed",
+    "/home/lyy/workplace/ngspice_workload_select/profile/20261114-055440-34321/c7552/klu8/simulation/inputs.json": "e0cc1d42c895d9455e404832ad660388e1bfbb046a96aa2942a8d46bd9aa120c"
+  },
+  "input_closure_sha256": "8bb01e629f7a71a294fe72731238a13b596db529e29157ca4d038ea9c4249809"
+}

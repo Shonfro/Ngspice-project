@@ -1,0 +1,2 @@
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.003 MB docs/analysis/diagnostics/perf-capability/perf.data ]

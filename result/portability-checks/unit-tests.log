@@ -1,0 +1,13 @@
+test_exactly_sixteen_cpu_allocation (test_launch.TopologyTests.test_exactly_sixteen_cpu_allocation) ... ok
+test_explicit_bad_node_does_not_fall_back (test_launch.TopologyTests.test_explicit_bad_node_does_not_fall_back) ... ok
+test_interleaved_smt_numbering (test_launch.TopologyTests.test_interleaved_smt_numbering) ... ok
+test_linux_cpu_list_with_gaps (test_launch.TopologyTests.test_linux_cpu_list_with_gaps) ... ok
+test_memory_pressure_is_rejected (test_launch.TopologyTests.test_memory_pressure_is_rejected) ... ok
+test_reclaimable_memory_excludes_dirty_pages (test_launch.TopologyTests.test_reclaimable_memory_excludes_dirty_pages) ... ok
+test_small_allocation_is_rejected (test_launch.TopologyTests.test_small_allocation_is_rejected) ... ok
+test_two_node_host_needs_no_node_two (test_launch.TopologyTests.test_two_node_host_needs_no_node_two) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

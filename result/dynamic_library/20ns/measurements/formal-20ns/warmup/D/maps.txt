@@ -1,0 +1,99 @@
+00400000-00404000 r--p 00000000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+00404000-009ed000 r-xp 00004000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+009ed000-00afe000 r--p 005ed000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+00afe000-00aff000 r--p 006fd000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+00aff000-00b60000 rw-p 006fe000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+00b60000-00b98000 rw-p 00000000 00:00 0 
+00c00000-00e33000 r-xp 00800000 fd:00 2176252695                         /home/lyy/workplace/eda/bolt/ngspice/v1/binaries/optimized/ngspice-klu8-bolt
+01439000-04a3a000 rw-p 00000000 00:00 0                                  [heap]
+7fc10b3cd000-7fc10b591000 r-xp 00000000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7fc10b591000-7fc10b790000 ---p 001c4000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7fc10b790000-7fc10b794000 r--p 001c3000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7fc10b794000-7fc10b796000 rw-p 001c7000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7fc10b796000-7fc10b79b000 rw-p 00000000 00:00 0 
+7fc10b79b000-7fc10b7b2000 r-xp 00000000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7fc10b7b2000-7fc10b9b1000 ---p 00017000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7fc10b9b1000-7fc10b9b2000 r--p 00016000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7fc10b9b2000-7fc10b9b3000 rw-p 00017000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7fc10b9b3000-7fc10b9b7000 rw-p 00000000 00:00 0 
+7fc10b9b7000-7fc10b9cc000 r-xp 00000000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7fc10b9cc000-7fc10bbcb000 ---p 00015000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7fc10bbcb000-7fc10bbcc000 r--p 00014000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7fc10bbcc000-7fc10bbcd000 rw-p 00015000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7fc10bbcd000-7fc10bbf2000 r-xp 00000000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7fc10bbf2000-7fc10bdf1000 ---p 00025000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7fc10bdf1000-7fc10bdf2000 r--p 00024000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7fc10bdf2000-7fc10bdf3000 rw-p 00025000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7fc10bdf3000-7fc10be2f000 r-xp 00000000 fd:00 76375                      /usr/lib64/libreadline.so.6.2
+7fc10be2f000-7fc10c02f000 ---p 0003c000 fd:00 76375                      /usr/lib64/libreadline.so.6.2
+7fc10c02f000-7fc10c031000 r--p 0003c000 fd:00 76375                      /usr/lib64/libreadline.so.6.2
+7fc10c031000-7fc10c037000 rw-p 0003e000 fd:00 76375                      /usr/lib64/libreadline.so.6.2
+7fc10c037000-7fc10c039000 rw-p 00000000 00:00 0 
+7fc10c039000-7fc10c122000 r-xp 00000000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7fc10c122000-7fc10c322000 ---p 000e9000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7fc10c322000-7fc10c32a000 r--p 000e9000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7fc10c32a000-7fc10c32c000 rw-p 000f1000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7fc10c32c000-7fc10c341000 rw-p 00000000 00:00 0 
+7fc10c341000-7fc10c442000 r-xp 00000000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7fc10c442000-7fc10c641000 ---p 00101000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7fc10c641000-7fc10c642000 r--p 00100000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7fc10c642000-7fc10c643000 rw-p 00101000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7fc10c643000-7fc10c668000 r-xp 00000000 fd:00 76318                      /usr/lib64/libtinfo.so.5.9
+7fc10c668000-7fc10c868000 ---p 00025000 fd:00 76318                      /usr/lib64/libtinfo.so.5.9
+7fc10c868000-7fc10c86c000 r--p 00025000 fd:00 76318                      /usr/lib64/libtinfo.so.5.9
+7fc10c86c000-7fc10c86d000 rw-p 00029000 fd:00 76318                      /usr/lib64/libtinfo.so.5.9
+7fc10c86d000-7fc10c86f000 r-xp 00000000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7fc10c86f000-7fc10ca6f000 ---p 00002000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7fc10ca6f000-7fc10ca70000 r--p 00002000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7fc10ca70000-7fc10ca71000 rw-p 00003000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7fc10ca71000-7fc10ca95000 r-xp 00000000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7fc10ca95000-7fc10cc95000 ---p 00024000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7fc10cc95000-7fc10cc96000 r--p 00024000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7fc10cc96000-7fc10cc97000 rw-p 00025000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7fc10cc97000-7fc10ce40000 rw-p 00000000 00:00 0 
+7fc10ce40000-7fc10ce62000 r-xp 00000000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7fc10cf73000-7fc10cf79000 r--p 00000000 fd:00 2179094492                 /opt/vendor/ngspice/47/lib/ngspice/tlines.cm
+7fc10cf79000-7fc10cf83000 r-xp 00006000 fd:00 2179094492                 /opt/vendor/ngspice/47/lib/ngspice/tlines.cm
+7fc10cf83000-7fc10cf86000 r--p 00010000 fd:00 2179094492                 /opt/vendor/ngspice/47/lib/ngspice/tlines.cm
+7fc10cf86000-7fc10cf87000 r--p 00012000 fd:00 2179094492                 /opt/vendor/ngspice/47/lib/ngspice/tlines.cm
+7fc10cf87000-7fc10cf8a000 rw-p 00013000 fd:00 2179094492                 /opt/vendor/ngspice/47/lib/ngspice/tlines.cm
+7fc10cf8a000-7fc10cf8b000 rw-p 00000000 00:00 0 
+7fc10cf8b000-7fc10cf8f000 r--p 00000000 fd:00 2179094491                 /opt/vendor/ngspice/47/lib/ngspice/table.cm
+7fc10cf8f000-7fc10cf9a000 r-xp 00004000 fd:00 2179094491                 /opt/vendor/ngspice/47/lib/ngspice/table.cm
+7fc10cf9a000-7fc10cf9d000 r--p 0000f000 fd:00 2179094491                 /opt/vendor/ngspice/47/lib/ngspice/table.cm
+7fc10cf9d000-7fc10cf9e000 r--p 00011000 fd:00 2179094491                 /opt/vendor/ngspice/47/lib/ngspice/table.cm
+7fc10cf9e000-7fc10cfa0000 rw-p 00012000 fd:00 2179094491                 /opt/vendor/ngspice/47/lib/ngspice/table.cm
+7fc10cfa0000-7fc10cfa4000 r--p 00000000 fd:00 2179094490                 /opt/vendor/ngspice/47/lib/ngspice/xtraevt.cm
+7fc10cfa4000-7fc10cfac000 r-xp 00004000 fd:00 2179094490                 /opt/vendor/ngspice/47/lib/ngspice/xtraevt.cm
+7fc10cfac000-7fc10cfaf000 r--p 0000c000 fd:00 2179094490                 /opt/vendor/ngspice/47/lib/ngspice/xtraevt.cm
+7fc10cfaf000-7fc10cfb0000 r--p 0000e000 fd:00 2179094490                 /opt/vendor/ngspice/47/lib/ngspice/xtraevt.cm
+7fc10cfb0000-7fc10cfb2000 rw-p 0000f000 fd:00 2179094490                 /opt/vendor/ngspice/47/lib/ngspice/xtraevt.cm
+7fc10cfb2000-7fc10cfba000 r--p 00000000 fd:00 2179094489                 /opt/vendor/ngspice/47/lib/ngspice/xtradev.cm
+7fc10cfba000-7fc10cfc4000 r-xp 00008000 fd:00 2179094489                 /opt/vendor/ngspice/47/lib/ngspice/xtradev.cm
+7fc10cfc4000-7fc10cfc7000 r--p 00012000 fd:00 2179094489                 /opt/vendor/ngspice/47/lib/ngspice/xtradev.cm
+7fc10cfc7000-7fc10cfc8000 r--p 00014000 fd:00 2179094489                 /opt/vendor/ngspice/47/lib/ngspice/xtradev.cm
+7fc10cfc8000-7fc10cfcd000 rw-p 00015000 fd:00 2179094489                 /opt/vendor/ngspice/47/lib/ngspice/xtradev.cm
+7fc10cfcd000-7fc10cfce000 rw-p 00000000 00:00 0 
+7fc10cfce000-7fc10cfe1000 r--p 00000000 fd:00 2179094487                 /opt/vendor/ngspice/47/lib/ngspice/digital.cm
+7fc10cfe1000-7fc10cff8000 r-xp 00013000 fd:00 2179094487                 /opt/vendor/ngspice/47/lib/ngspice/digital.cm
+7fc10cff8000-7fc10cffd000 r--p 0002a000 fd:00 2179094487                 /opt/vendor/ngspice/47/lib/ngspice/digital.cm
+7fc10cffd000-7fc10cffe000 r--p 0002e000 fd:00 2179094487                 /opt/vendor/ngspice/47/lib/ngspice/digital.cm
+7fc10cffe000-7fc10d00d000 rw-p 0002f000 fd:00 2179094487                 /opt/vendor/ngspice/47/lib/ngspice/digital.cm
+7fc10d00d000-7fc10d01c000 r--p 00000000 fd:00 2179094488                 /opt/vendor/ngspice/47/lib/ngspice/analog.cm
+7fc10d01c000-7fc10d02c000 r-xp 0000f000 fd:00 2179094488                 /opt/vendor/ngspice/47/lib/ngspice/analog.cm
+7fc10d02c000-7fc10d031000 r--p 0001f000 fd:00 2179094488                 /opt/vendor/ngspice/47/lib/ngspice/analog.cm
+7fc10d031000-7fc10d032000 r--p 00023000 fd:00 2179094488                 /opt/vendor/ngspice/47/lib/ngspice/analog.cm
+7fc10d032000-7fc10d03d000 rw-p 00024000 fd:00 2179094488                 /opt/vendor/ngspice/47/lib/ngspice/analog.cm
+7fc10d03d000-7fc10d040000 r--p 00000000 fd:00 2179094486                 /opt/vendor/ngspice/47/lib/ngspice/spice2poly.cm
+7fc10d040000-7fc10d047000 r-xp 00003000 fd:00 2179094486                 /opt/vendor/ngspice/47/lib/ngspice/spice2poly.cm
+7fc10d047000-7fc10d049000 r--p 0000a000 fd:00 2179094486                 /opt/vendor/ngspice/47/lib/ngspice/spice2poly.cm
+7fc10d049000-7fc10d04a000 r--p 0000b000 fd:00 2179094486                 /opt/vendor/ngspice/47/lib/ngspice/spice2poly.cm
+7fc10d04a000-7fc10d04b000 rw-p 0000c000 fd:00 2179094486                 /opt/vendor/ngspice/47/lib/ngspice/spice2poly.cm
+7fc10d04b000-7fc10d053000 rw-p 00000000 00:00 0 
+7fc10d05b000-7fc10d061000 rw-p 00000000 00:00 0 
+7fc10d061000-7fc10d062000 r--p 00021000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7fc10d062000-7fc10d063000 rw-p 00022000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7fc10d063000-7fc10d064000 rw-p 00000000 00:00 0 
+7ffe553f1000-7ffe55443000 rw-p 00000000 00:00 0                          [stack]
+7ffe5555f000-7ffe55561000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

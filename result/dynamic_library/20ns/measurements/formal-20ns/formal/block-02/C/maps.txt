@@ -1,0 +1,80 @@
+00400000-00b02000 r-xp 00000000 fd:00 127729101                          /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+00d01000-00d02000 r--p 00701000 fd:00 127729101                          /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+00d02000-00d63000 rw-p 00702000 fd:00 127729101                          /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/bin/ngspice
+00d63000-00d9a000 rw-p 00000000 00:00 0 
+0254b000-05d4c000 rw-p 00000000 00:00 0                                  [heap]
+7f6a0feb7000-7f6a0fec9000 r-xp 00000000 fd:00 2222676220                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/tlines.cm
+7f6a0fec9000-7f6a100c8000 ---p 00012000 fd:00 2222676220                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/tlines.cm
+7f6a100c8000-7f6a100c9000 r--p 00011000 fd:00 2222676220                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/tlines.cm
+7f6a100c9000-7f6a100cc000 rw-p 00012000 fd:00 2222676220                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/tlines.cm
+7f6a100cc000-7f6a100cd000 rw-p 00000000 00:00 0 
+7f6a100cd000-7f6a100df000 r-xp 00000000 fd:00 2222676219                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/table.cm
+7f6a100df000-7f6a102de000 ---p 00012000 fd:00 2222676219                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/table.cm
+7f6a102de000-7f6a102df000 r--p 00011000 fd:00 2222676219                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/table.cm
+7f6a102df000-7f6a102e1000 rw-p 00012000 fd:00 2222676219                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/table.cm
+7f6a102e1000-7f6a102ef000 r-xp 00000000 fd:00 2222676218                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtraevt.cm
+7f6a102ef000-7f6a104ee000 ---p 0000e000 fd:00 2222676218                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtraevt.cm
+7f6a104ee000-7f6a104ef000 r--p 0000d000 fd:00 2222676218                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtraevt.cm
+7f6a104ef000-7f6a104f1000 rw-p 0000e000 fd:00 2222676218                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtraevt.cm
+7f6a104f1000-7f6a10506000 r-xp 00000000 fd:00 2222676217                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtradev.cm
+7f6a10506000-7f6a10705000 ---p 00015000 fd:00 2222676217                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtradev.cm
+7f6a10705000-7f6a10706000 r--p 00014000 fd:00 2222676217                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtradev.cm
+7f6a10706000-7f6a1070b000 rw-p 00015000 fd:00 2222676217                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/xtradev.cm
+7f6a1070b000-7f6a1070c000 rw-p 00000000 00:00 0 
+7f6a1070c000-7f6a1073a000 r-xp 00000000 fd:00 2222676215                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/digital.cm
+7f6a1073a000-7f6a10939000 ---p 0002e000 fd:00 2222676215                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/digital.cm
+7f6a10939000-7f6a1093a000 r--p 0002d000 fd:00 2222676215                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/digital.cm
+7f6a1093a000-7f6a10949000 rw-p 0002e000 fd:00 2222676215                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/digital.cm
+7f6a10949000-7f6a1096c000 r-xp 00000000 fd:00 2222676216                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/analog.cm
+7f6a1096c000-7f6a10b6b000 ---p 00023000 fd:00 2222676216                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/analog.cm
+7f6a10b6b000-7f6a10b6c000 r--p 00022000 fd:00 2222676216                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/analog.cm
+7f6a10b6c000-7f6a10b77000 rw-p 00023000 fd:00 2222676216                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/analog.cm
+7f6a10b77000-7f6a10b83000 r-xp 00000000 fd:00 2222676214                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/spice2poly.cm
+7f6a10b83000-7f6a10d82000 ---p 0000c000 fd:00 2222676214                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/spice2poly.cm
+7f6a10d82000-7f6a10d83000 r--p 0000b000 fd:00 2222676214                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/spice2poly.cm
+7f6a10d83000-7f6a10d84000 rw-p 0000c000 fd:00 2222676214                 /home/lyy/workplace/eda/bolt/src/ngspice/upstream-20261107-231732/install/lib/ngspice/spice2poly.cm
+7f6a10d84000-7f6a10f48000 r-xp 00000000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7f6a10f48000-7f6a11147000 ---p 001c4000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7f6a11147000-7f6a1114b000 r--p 001c3000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7f6a1114b000-7f6a1114d000 rw-p 001c7000 fd:00 76231                      /usr/lib64/libc-2.17.so
+7f6a1114d000-7f6a11152000 rw-p 00000000 00:00 0 
+7f6a11152000-7f6a11169000 r-xp 00000000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7f6a11169000-7f6a11368000 ---p 00017000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7f6a11368000-7f6a11369000 r--p 00016000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7f6a11369000-7f6a1136a000 rw-p 00017000 fd:00 19290427                   /usr/lib64/libpthread-2.17.so
+7f6a1136a000-7f6a1136e000 rw-p 00000000 00:00 0 
+7f6a1136e000-7f6a11383000 r-xp 00000000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f6a11383000-7f6a11582000 ---p 00015000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f6a11582000-7f6a11583000 r--p 00014000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f6a11583000-7f6a11584000 rw-p 00015000 fd:00 117                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f6a11584000-7f6a115a9000 r-xp 00000000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7f6a115a9000-7f6a117a8000 ---p 00025000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7f6a117a8000-7f6a117a9000 r--p 00024000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7f6a117a9000-7f6a117aa000 rw-p 00025000 fd:00 77044                      /usr/lib64/libgomp.so.1.0.0
+7f6a117aa000-7f6a11893000 r-xp 00000000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7f6a11893000-7f6a11a93000 ---p 000e9000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7f6a11a93000-7f6a11a9b000 r--p 000e9000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7f6a11a9b000-7f6a11a9d000 rw-p 000f1000 fd:00 76290                      /usr/lib64/libstdc++.so.6.0.19
+7f6a11a9d000-7f6a11ab2000 rw-p 00000000 00:00 0 
+7f6a11ab2000-7f6a11bb3000 r-xp 00000000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7f6a11bb3000-7f6a11db2000 ---p 00101000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7f6a11db2000-7f6a11db3000 r--p 00100000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7f6a11db3000-7f6a11db4000 rw-p 00101000 fd:00 19290409                   /usr/lib64/libm-2.17.so
+7f6a11db4000-7f6a11db6000 r-xp 00000000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7f6a11db6000-7f6a11fb6000 ---p 00002000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7f6a11fb6000-7f6a11fb7000 r--p 00002000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7f6a11fb7000-7f6a11fb8000 rw-p 00003000 fd:00 19290407                   /usr/lib64/libdl-2.17.so
+7f6a11fb8000-7f6a11fdc000 r-xp 00000000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7f6a11fdc000-7f6a121dc000 ---p 00024000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7f6a121dc000-7f6a121dd000 r--p 00024000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7f6a121dd000-7f6a121de000 rw-p 00025000 fd:00 3342290830                 /home/lyy/workplace/dynamic-libs/prefix/gperftools-2.7/lib/libtcmalloc_minimal.so.4.5.3
+7f6a121de000-7f6a12387000 rw-p 00000000 00:00 0 
+7f6a12387000-7f6a123a9000 r-xp 00000000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7f6a12593000-7f6a1259a000 rw-p 00000000 00:00 0 
+7f6a125a1000-7f6a125a8000 rw-p 00000000 00:00 0 
+7f6a125a8000-7f6a125a9000 r--p 00021000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7f6a125a9000-7f6a125aa000 rw-p 00022000 fd:00 76219                      /usr/lib64/ld-2.17.so
+7f6a125aa000-7f6a125ab000 rw-p 00000000 00:00 0 
+7ffe4a215000-7ffe4a266000 rw-p 00000000 00:00 0                          [stack]
+7ffe4a389000-7ffe4a38b000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

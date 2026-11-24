@@ -1,0 +1,21 @@
+# Large/private experiment artifacts are preserved locally but not uploaded to GitHub.
+raw/*.tar.gz
+raw/**/*.tar.gz
+source/**/*.tar.gz
+source/toolchain/formal/
+source/toolchain/llvm-bolt
+source/toolchain/perf
+source/dependencies/**/lib/*.so*
+source/dependencies/**/lib/*.a
+result/**/measurements/**/original.sp
+result/**/measurements/**/waveform.raw
+result/**/measurements/**/models/
+docs/analysis/diagnostics/**/perf.data
+docs/analysis/diagnostics/**/perf.data.old
+docs/analysis/diagnostics/**/perf-script.txt
+docs/analysis/diagnostics/**/*.raw
+docs/analysis/diagnostics/**/*.sp
+docs/analysis/diagnostics/**/models/
+*.pyc
+__pycache__/
+.venv/

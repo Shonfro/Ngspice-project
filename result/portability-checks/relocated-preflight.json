@@ -1,0 +1,270 @@
+{
+  "package": "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚",
+  "output": "/home/lyy/workplace/deliveries/test/portability-integration/relocated-and-perf-fallback",
+  "probes": [
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "true"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚/source/toolchain/llvm-bolt",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "LLVM (http://llvm.org/):\n  LLVM version 22.1.8\n  Optimized build with assertions.\nBOLT revision ca7933e47d3a3451d81e72ac174dcb5aa28b59d1\n\n  Registered Targets:\n    x86    - 32-bit X86: Pentium-Pro and above\n    x86-64 - 64-bit X86: EM64T and AMD64\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "gcc",
+        "-fopenmp",
+        "-Wl,--emit-relocs",
+        "-Wl,--build-id=sha1",
+        "/tmp/ngspice-preflight-ps8ocf30/probe.c",
+        "-o",
+        "/tmp/ngspice-preflight-ps8ocf30/probe"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/tmp/ngspice-preflight-ps8ocf30/probe"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚/source/toolchain/perf",
+        "record",
+        "-e",
+        "cpu-clock:u",
+        "-F",
+        "99",
+        "-o",
+        "/tmp/ngspice-preflight-ps8ocf30/probe.perf.data",
+        "--",
+        "/opt/vendor/openlane/2.3.10/python/bin/python3",
+        "-c",
+        "import time; end=time.monotonic()+0.25\nwhile time.monotonic()<end: pass"
+      ],
+      "returncode": 127,
+      "output": "injected_incompatible_bundled_perf\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/home/lyy/workplace/deliveries/test/portability-integration/host-bin/perf",
+        "record",
+        "-e",
+        "cpu-clock:u",
+        "-F",
+        "99",
+        "-o",
+        "/tmp/ngspice-preflight-ps8ocf30/probe.perf.data",
+        "--",
+        "/opt/vendor/openlane/2.3.10/python/bin/python3",
+        "-c",
+        "import time; end=time.monotonic()+0.25\nwhile time.monotonic()<end: pass"
+      ],
+      "returncode": 0,
+      "output": "[ perf record: Woken up 1 times to write data ]\n[ perf record: Captured and wrote 0.005 MB /tmp/ngspice-preflight-ps8ocf30/probe.perf.data (25 samples) ]\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/home/lyy/workplace/deliveries/test/portability-integration/host-bin/perf",
+        "report",
+        "--stdio",
+        "-i",
+        "/tmp/ngspice-preflight-ps8ocf30/probe.perf.data"
+      ],
+      "returncode": 0,
+      "output": "# To display the perf.data header info, please use --header/--header-only options.\n#\n#\n# Total Lost Samples: 0\n#\n# Samples: 25  of event 'cpu-clock:u'\n# Event count (approx.): 252525250\n#\n# Overhead  Command  Shared Object  Symbol                  \n# ........  .......  .............  ........................\n#\n   100.00%  python3  [vdso]         [.] __vdso_clock_gettime\n\n\n#\n# (Cannot load tips.txt file, please install perf!)\n#\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/opt/vendor/openlane/2.3.10/python/bin/python3",
+        "-B",
+        "-c",
+        "import z3; assert z3.get_version_string()==\"4.12.2\"; s=z3.Solver(); s.add(z3.BoolVal(True)); assert s.check()==z3.sat; print(z3.get_version_string())"
+      ],
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'z3'\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "/opt/vendor/openlane/2.3.10/python/bin/python3",
+        "-B",
+        "-c",
+        "import z3; assert z3.get_version_string()==\"4.12.2\"; s=z3.Solver(); s.add(z3.BoolVal(True)); assert s.check()==z3.sat; print(z3.get_version_string())"
+      ],
+      "returncode": 0,
+      "output": "4.12.2\n"
+    },
+    {
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+        "--membind=1",
+        "java",
+        "-version"
+      ],
+      "returncode": 0,
+      "output": "openjdk version \"11.0.23\" 2024-04-16 LTS\nOpenJDK Runtime Environment (Red_Hat-11.0.23.0.9-2.el7_9) (build 11.0.23+9-LTS)\nOpenJDK 64-Bit Server VM (Red_Hat-11.0.23.0.9-2.el7_9) (build 11.0.23+9-LTS, mixed mode, sharing)\n"
+    }
+  ],
+  "status": "PASSED",
+  "numa_nodes": [
+    {
+      "node": 0,
+      "allowed_cpus": [],
+      "available_kib": 24878480
+    },
+    {
+      "node": 1,
+      "allowed_cpus": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "available_kib": 19369192
+    },
+    {
+      "node": 2,
+      "allowed_cpus": [],
+      "available_kib": 16345388
+    },
+    {
+      "node": 3,
+      "allowed_cpus": [],
+      "available_kib": 49515816
+    },
+    {
+      "node": 4,
+      "allowed_cpus": [],
+      "available_kib": 56662060
+    },
+    {
+      "node": 5,
+      "allowed_cpus": [],
+      "available_kib": 36280752
+    },
+    {
+      "node": 6,
+      "allowed_cpus": [],
+      "available_kib": 40234020
+    },
+    {
+      "node": 7,
+      "allowed_cpus": [],
+      "available_kib": 57943056
+    }
+  ],
+  "selected_node": 1,
+  "cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "monitor_cpu": 144,
+  "controller_shares_logical_cpu": false,
+  "selection_rule": "explicit node",
+  "bolt_dir": "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚/source/toolchain",
+  "bolt_sha256": "5ac18b7c1e4a507d41b7838610c32430f6bae962604f7179ad255e4c19fafb84",
+  "perf_candidates": [
+    {
+      "path": "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚/source/toolchain/perf",
+      "returncode": 127
+    },
+    {
+      "path": "/home/lyy/workplace/deliveries/test/portability-integration/host-bin/perf",
+      "returncode": 0
+    }
+  ],
+  "perf": "/home/lyy/workplace/deliveries/test/portability-integration/host-bin/perf",
+  "perf_sha256": "4c4c6504831390448af9aa81dda990bff83653272bd9636fccf1955b04d4cc30",
+  "z3_pythonpath": "/home/lyy/workplace/deliveries/test/portability-integration/搬迁 package/51295903059_刘昱垚/source/toolchain/formal/python",
+  "python": "/opt/vendor/openlane/2.3.10/python/bin/python3",
+  "python_version": "3.11.10 (main, Oct 16 2024, 04:38:48) [Clang 18.1.8 ]",
+  "platform": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17",
+  "kernel": "3.10.0-1160.el7.x86_64",
+  "skip_numa": true,
+  "binding_command": [
+    "numactl",
+    "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,144",
+    "--membind=1"
+  ],
+  "disk_free_bytes": 1633457098752
+}
