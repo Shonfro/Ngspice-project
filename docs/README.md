@@ -8,4 +8,3 @@
 - `experiments/dynamic-library.md`：动态库实验设计、验证和结果位置。
 - `analysis/dynamic-library-optimization-report.md`：动态库独立分析记录。
 
-企业报告不复制到本工程；工程内文档只记录本项目实际保留的数据和复核方法。
